@@ -38,9 +38,8 @@
     "current_ask": "Publishing partner for global launch + co-marketing",
     "funding_status": "Pre-seed raised in 2023 (amount undisclosed)",
     "proof_points": [
-      "38.2k Steam wishlists",
-      "9.1k demo downloads",
-      "Selected for Indie Arena Booth 2025"
+      "38,200 Steam wishlists",
+      "9,100 demo downloads"
     ],
     "available_assets": {
       "gameplay_video": "https://example.com/echoes-gameplay-trailer",
@@ -52,13 +51,13 @@
   },
   "inferences": [
     {
-      "statement": "Current traction suggests above-average early market interest for an indie action roguelite.",
-      "reasoning": "Wishlists + trailer views are strong relative to team size.",
+      "statement": "Las señales iniciales sugieren interés real del mercado antes del lanzamiento.",
+      "reasoning": "El volumen de wishlists es relevante para una fase pre-launch.",
       "confidence": "medium"
     },
     {
-      "statement": "Publisher-first narrative should prioritize marketability and launch execution support.",
-      "reasoning": "The ask is explicitly a publishing + co-marketing partnership.",
+      "statement": "La credibilidad del pitch depende de compensar bien los gaps de información.",
+      "reasoning": "Faltan varios datos críticos para una conversación avanzada con inversores o publishers.",
       "confidence": "high"
     }
   ],
