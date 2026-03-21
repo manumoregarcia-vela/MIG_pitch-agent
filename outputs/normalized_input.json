@@ -1,30 +1,26 @@
 {
-  "facts": {
-    "studio_name": "",
+  "studio_profile": {
+    "studio_name": ""
+  },
+  "game_profile": {
     "game_name": "",
     "genre": "",
-    "platform": [],
+    "platforms": [],
     "development_stage": "",
-    "traction_signals": {},
-    "business_model": "",
-    "audience": "",
-    "USP": "",
-    "team": [],
-    "current_ask": "",
-    "funding_status": "",
-    "proof_points": [],
-    "available_assets": {
-      "gameplay": true
-    }
+    "core_fantasy": ""
   },
-  "inferences": [
-    {
-      "statement": "La credibilidad del pitch depende de compensar bien los gaps de información.",
-      "reasoning": "Faltan varios datos críticos para una conversación avanzada con inversores o publishers.",
-      "confidence": "high"
-    }
-  ],
-  "missing_critical_info": [
+  "traction": {},
+  "business": {
+    "business_model": "",
+    "target_audience": "",
+    "current_ask": "",
+    "funding_status": ""
+  },
+  "team": [],
+  "assets": {
+    "gameplay": true
+  },
+  "known_gaps": [
     "Missing: studio_profile.studio_name",
     "Missing: game_profile.game_name",
     "Missing: game_profile.genre",

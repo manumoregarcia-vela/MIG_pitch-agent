@@ -2,14 +2,14 @@
   "slides": [
     {
       "slide_number": 1,
-      "slide_title": "Echoes of Titanium — Hook del juego",
+      "slide_title": " — Hook del juego",
       "slide_objective": "Captar interés inmediato con una propuesta de valor clara.",
-      "key_message": "El juego ofrece una propuesta central clara: High-speed mech combat in procedural arenas.",
+      "key_message": "El juego ofrece una propuesta central clara: .",
       "content_blocks": [
-        "Fantasy principal: High-speed mech combat in procedural arenas",
-        "Género: Action Roguelite",
-        "Plataformas: PC (Steam), PlayStation 5",
-        "Estudio: Neon Lynx Studio"
+        "Fantasy principal: ",
+        "Género: ",
+        "Plataformas: ",
+        "Estudio: "
       ],
       "suggested_visuals": [
         "Key art",
@@ -27,11 +27,11 @@
       "slide_number": 2,
       "slide_title": "Gameplay + prueba visual",
       "slide_objective": "Demostrar calidad de producto y claridad de gameplay.",
-      "key_message": "Las señales tempranas de tracción sugieren interés real antes del lanzamiento.",
+      "key_message": "La narrativa debe reforzar validación cualitativa mientras madura la tracción.",
       "content_blocks": [
         "Vídeo o trailer de gameplay",
         "3 bullets del core loop",
-        "Estado de desarrollo: Public demo available; vertical slice complete"
+        "Estado de desarrollo: "
       ],
       "suggested_visuals": [
         "Gameplay video",
@@ -46,32 +46,11 @@
     },
     {
       "slide_number": 3,
-      "slide_title": "Tracción y validación",
-      "slide_objective": "Mostrar señales reales de interés temprano.",
-      "key_message": "La credibilidad del equipo debe explicarse mejor para compensar riesgo de ejecución.",
-      "content_blocks": [
-        "Steam wishlists: 38200",
-        "Demo downloads: 9100",
-        "Comunidad / followers: N/A",
-        "Trailer views / social proof: N/A"
-      ],
-      "suggested_visuals": [
-        "Tarjetas KPI",
-        "Mini gráfico",
-        "Logos de festivales o validaciones"
-      ],
-      "source_reference": [
-        "traction"
-      ],
-      "confidence_level": "high"
-    },
-    {
-      "slide_number": 4,
       "slide_title": "Why now / oportunidad",
       "slide_objective": "Explicar por qué este juego merece atención ahora.",
-      "key_message": "El caso debe enfatizar marketability, encaje editorial y soporte de lanzamiento.",
+      "key_message": "El pitch debe equilibrar atractivo editorial con credibilidad de negocio.",
       "content_blocks": [
-        "Audiencia objetivo: Core PC/console players aged 18-34",
+        "Audiencia objetivo: ",
         "Posicionamiento frente a comparables",
         "Ventana de oportunidad / momentum"
       ],
@@ -88,33 +67,12 @@
       "confidence_level": "medium"
     },
     {
-      "slide_number": 5,
-      "slide_title": "Modelo de negocio y plan de lanzamiento",
-      "slide_objective": "Explicar cómo se convierte el interés en negocio.",
-      "key_message": "Premium game + cosmetic DLC",
-      "content_blocks": [
-        "Modelo de negocio: Premium game + cosmetic DLC",
-        "Canales de lanzamiento previstos",
-        "Racional de publishing / co-marketing",
-        "Cómo un publisher acelera el go-to-market"
-      ],
-      "suggested_visuals": [
-        "Timeline de lanzamiento",
-        "Diagrama GTM",
-        "Modelo simplificado"
-      ],
-      "source_reference": [
-        "business"
-      ],
-      "confidence_level": "medium"
-    },
-    {
-      "slide_number": 6,
+      "slide_number": 4,
       "slide_title": "Equipo",
       "slide_objective": "Reducir riesgo de ejecución mostrando credenciales del equipo.",
       "key_message": "El equipo presenta credenciales relevantes para ejecutar producto y lanzamiento.",
       "content_blocks": [
-        "Tamaño del equipo: 3",
+        "Tamaño del equipo: 0",
         "Roles clave y complementariedad",
         "Experiencia relevante / shipped titles / background"
       ],
@@ -130,15 +88,36 @@
       "confidence_level": "high"
     },
     {
-      "slide_number": 7,
+      "slide_number": 5,
+      "slide_title": "Modelo de negocio y plan de lanzamiento",
+      "slide_objective": "Explicar cómo se convierte el interés en negocio.",
+      "key_message": "",
+      "content_blocks": [
+        "Modelo de negocio: ",
+        "Canales de lanzamiento previstos",
+        "Plan de lanzamiento y distribución",
+        "Lógica de monetización y partnership"
+      ],
+      "suggested_visuals": [
+        "Timeline de lanzamiento",
+        "Diagrama GTM",
+        "Modelo simplificado"
+      ],
+      "source_reference": [
+        "business"
+      ],
+      "confidence_level": "medium"
+    },
+    {
+      "slide_number": 6,
       "slide_title": "El ask",
       "slide_objective": "Cerrar con una petición clara, concreta y accionable.",
-      "key_message": "Publishing partner for global launch + co-marketing",
+      "key_message": "",
       "content_blocks": [
-        "Ask principal: Publishing partner for global launch + co-marketing",
-        "Soporte editorial / publishing esperado",
-        "Contribución en marketing, distribución o UA",
-        "Siguiente paso propuesto: meeting / materials / build review"
+        "Ask principal: ",
+        "Qué buscamos exactamente",
+        "Qué tipo de partner encaja",
+        "Siguiente paso propuesto"
       ],
       "suggested_visuals": [
         "Diagrama de partnership",
