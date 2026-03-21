@@ -1,1 +1,80 @@
-
+{
+  "qa_report": {
+    "type": "object",
+    "required": [
+      "checklist",
+      "quality_scoring",
+      "demo_day_readiness_score",
+      "issues",
+      "recommendations",
+      "gaps"
+    ],
+    "properties": {
+      "checklist": {
+        "type": "object",
+        "required": [
+          "max_8_slides",
+          "has_gameplay_video",
+          "has_metrics_or_success_case",
+          "has_clear_ask",
+          "has_team"
+        ],
+        "properties": {
+          "max_8_slides": {"type": "boolean"},
+          "has_gameplay_video": {"type": "boolean"},
+          "has_metrics_or_success_case": {"type": "boolean"},
+          "has_clear_ask": {"type": "boolean"},
+          "has_team": {"type": "boolean"}
+        }
+      },
+      "quality_scoring": {
+        "type": "object",
+        "required": [
+          "clarity",
+          "credibility",
+          "traction_strength",
+          "differentiation",
+          "investor_publisher_appeal"
+        ],
+        "properties": {
+          "clarity": {"type": "integer", "minimum": 1, "maximum": 10},
+          "credibility": {"type": "integer", "minimum": 1, "maximum": 10},
+          "traction_strength": {"type": "integer", "minimum": 1, "maximum": 10},
+          "differentiation": {"type": "integer", "minimum": 1, "maximum": 10},
+          "investor_publisher_appeal": {"type": "integer", "minimum": 1, "maximum": 10}
+        }
+      },
+      "demo_day_readiness_score": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "issues": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": [
+            "too generic",
+            "unclear game concept",
+            "weak metrics",
+            "no clear ask",
+            "too much text"
+          ]
+        }
+      },
+      "recommendations": {
+        "type": "object",
+        "required": ["change", "remove", "emphasize"],
+        "properties": {
+          "change": {"type": "array", "items": {"type": "string"}},
+          "remove": {"type": "array", "items": {"type": "string"}},
+          "emphasize": {"type": "array", "items": {"type": "string"}}
+        }
+      },
+      "gaps": {
+        "type": "array",
+        "items": {"type": "string"}
+      }
+    }
+  }
+}
