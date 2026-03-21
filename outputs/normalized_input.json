@@ -17,9 +17,7 @@
     "funding_status": ""
   },
   "team": [],
-  "assets": {
-    "gameplay": true
-  },
+  "assets": {},
   "known_gaps": [
     "Missing: studio_profile.studio_name",
     "Missing: game_profile.game_name",
@@ -34,10 +32,38 @@
     "Missing: traction.steam_wishlists",
     "Missing: traction.demo_downloads",
     "Missing: traction.trailer_views",
-    "Missing: traction.community_size"
+    "Missing: traction.community_size",
+    "Fallback mode used due to poor extraction quality"
   ],
   "source_map": {
     "document": "AlcheMice_m.pdf",
-    "ingestion": "rule-based parser"
+    "ingestion": "hybrid-fallback",
+    "normalization_mode": "hybrid-fallback",
+    "compact_representation": {
+      "source_file": "AlcheMice_m.pdf",
+      "quality_reasons": [
+        "High presence of PDF internal structure tokens",
+        "High ratio of technical/PDF tokens",
+        "Low number of meaningful sentences"
+      ],
+      "snippets": [
+        "68b68fa53e236048209c0ce7ce296688",
+        "LastModified (D:20251030210448",
+        "8 /Colors 1 /Columns 1920 /Predictor 2",
+        "X1 2 0 R /X2 425 0 R /X3 424 0 R /X4 426 0 R /X5",
+        "LastModified (D:20251030210455",
+        "MorrisRomanAlternate-Black",
+        "Encoding /Identity-H",
+        "X7 10 0 R /X8 424 0 R /X9 425 0 R /X10 426 0 R",
+        "X11 11 0 R /X12 12 0 R",
+        "F2 13 0 R /F1 14 0 R",
+        "LastModified (D:20251030210506",
+        "Filter /CCITTFaxDecode",
+        "X13 18 0 R /X14 19 0 R /X15 20 0 R /X16 21 0 R",
+        "X17 22 0 R /X18 23 0 R",
+        "F2 24 0 R /F1 26 0 R"
+      ],
+      "page_hints": []
+    }
   }
 }

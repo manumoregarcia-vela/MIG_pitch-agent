@@ -45,6 +45,7 @@
 - ⚠️ Missing: traction.demo_downloads
 - ⚠️ Missing: traction.trailer_views
 - ⚠️ Missing: traction.community_size
+- ⚠️ Fallback mode used due to poor extraction quality
 
 ## Claims dudosos o a validar
 - ⚠️ Validar benchmarks externos y comparables de mercado antes del Demo Day.

@@ -1,4 +1,3 @@
-444 0 obj
 Linearized 1
 L 5857738
 T 5848730
@@ -15,13 +14,9 @@ Root 445 0 R
 68b68fa53e236048209c0ce7ce296688
 68b68fa53e236048209c0ce7ce296688
 startxref
-445 0 obj
 Type /Catalog
 Pages 440 0 R
-450 0 obj
-Filter /FlateDecode
-Length 282
-446 0 obj
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -31,12 +26,8 @@ Contents 447 0 R
 0 0 1920 1080
 LastModified (D:20251030210448
 Parent 441 0 R
-447 0 obj
-Filter /FlateDecode
-Length 33
-448 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
@@ -44,24 +35,19 @@ ImageName /PITCH
 Intent /Perceptual
 SMask 449 0 R
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 279718
 QwVrO2 iQ
 P5- 6Uq-R
-449 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 DecodeParms
-BitsPerComponent 8 /Colors 1 /Columns 1920 /Predictor 2
-Filter /FlateDecode
+8 /Colors 1 /Columns 1920 /Predictor 2
+Filter /
 Height 1080
-Length 4173
 Subtype /Image
-Type /XObject
+Type
 Width 1920
 Type /Page
 0 0 1920 1080
@@ -74,42 +60,34 @@ Contents 8 0 R
 0 0 1920 1080
 LastModified (D:20251030210455
 Parent 441 0 R
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
 20SHORT14
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 327876
 zCkG2Ri p
 Ic;YOcUFVw.
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 579
-BitsPerComponent 1
-ColorSpace /DeviceGray
+1
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
 Filter /JBIG2Decode
-Length 184
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -124,10 +102,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 7 0 R
 Type /Font
-Filter /FlateDecode
-Length 374
-Filter /FlateDecode
-Length 1105
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -139,8 +115,7 @@ Contents 16 0 R
 0 0 1920 1080
 LastModified (D:20251030210506
 Parent 441 0 R
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
@@ -148,36 +123,29 @@ ImageName /PITCH
 20HERMETICA.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 332228
 dUDH(d6DX
 r.mOBL_.N
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 723
-BitsPerComponent 1
-ColorSpace /DeviceGray
+1
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
 Filter /CCITTFaxDecode
 DecodeParms
 K -1 /Columns 1920
-Length 146
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -192,10 +160,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 15 0 R
 Type /Font
-Filter /FlateDecode
-Length 351
-Filter /FlateDecode
-Length 1006
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -207,62 +173,49 @@ Contents 28 0 R
 0 0 1920 1080
 LastModified (D:20251030210513
 Parent 441 0 R
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
 20ALCHEMICE.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 188594
 OHLMBLDDLOIEF
-BitsPerComponent 1
-ColorSpace /DeviceGray
+1
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
 Filter /JBIG2Decode
-Length 181
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 11388
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 5520
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -270,8 +223,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 25 0 R
 Type /Font
-Filter /FlateDecode
-Length 261
+Filter /
 BaseFont /AQEAQO
 Amiri-Regular
 DescendantFonts
@@ -279,10 +231,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 27 0 R
 Type /Font
-Filter /FlateDecode
-Length 400
-Filter /FlateDecode
-Length 1220
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -296,201 +246,152 @@ Contents 55 0 R
 0 0 1920 1080
 LastModified (D:20251030210521
 Parent 441 0 R
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
 20GAMEPLAY.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 210658
 EhHqcypxr
 RVukcEPjz)1
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 3007
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 837
-Filter /FlateDecode
-Length 63
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 837
-Filter /FlateDecode
-Length 60
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 837
-Filter /FlateDecode
-Length 63
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 837
-Filter /FlateDecode
-Length 60
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-BitsPerComponent 8
-ColorSpace /DeviceGray
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 930
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1533
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 876
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 4084
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 916
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 772
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2475
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1018
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2729
 6xhsjl6b1
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 3657
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -498,8 +399,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 52 0 R
 Type /Font
-Filter /FlateDecode
-Length 343
+Filter /
 BaseFont /AQEAQO
 Amiri-Regular
 DescendantFonts
@@ -507,10 +407,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 54 0 R
 Type /Font
-Filter /FlateDecode
-Length 346
-Filter /FlateDecode
-Length 1410
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -522,78 +420,61 @@ Contents 71 0 R
 0 0 1920 1080
 LastModified (D:20251030210527
 Parent 441 0 R
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
 20CARDS.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 171213
 3qSGIqIZE/
-BitsPerComponent 1
-ColorSpace /DeviceGray
+1
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
 Filter /JBIG2Decode
-Length 182
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 5674
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1910
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1922
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -601,8 +482,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 66 0 R
 Type /Font
-Filter /FlateDecode
-Length 296
+Filter /
 BaseFont /AQEAQO
 Amiri-Bold
 DescendantFonts
@@ -610,8 +490,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 68 0 R
 Type /Font
-Filter /FlateDecode
-Length 315
+Filter /
 BaseFont /AQEAQO
 Amiri-Regular
 DescendantFonts
@@ -619,10 +498,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 70 0 R
 Type /Font
-Filter /FlateDecode
-Length 374
-Filter /FlateDecode
-Length 1168
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -633,19 +510,16 @@ Contents 76 0 R
 0 0 1920 1080
 LastModified (D:20251030210533
 Parent 441 0 R
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 295224
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -653,10 +527,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 75 0 R
 Type /Font
-Filter /FlateDecode
-Length 253
-Filter /FlateDecode
-Length 135
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -666,22 +538,18 @@ Contents 78 0 R
 0 0 1920 1080
 LastModified (D:20251030210539
 Parent 441 0 R
-Filter /FlateDecode
-Length 34
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
 Intent /Perceptual
 SMask 449 0 R
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 112549
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -691,10 +559,8 @@ Contents 81 0 R
 0 0 1920 1080
 LastModified (D:20251030210545
 Parent 441 0 R
-Filter /FlateDecode
-Length 34
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
@@ -702,12 +568,10 @@ ImageName /PITCH
 Intent /Perceptual
 SMask 449 0 R
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 112549
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -718,48 +582,39 @@ Contents 91 0 R
 0 0 1920 1080
 LastModified (D:20251030210552
 Parent 441 0 R
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
 20GAME.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 360631
 A4FRURbXv
 FJonUK8/f.T
 Z7KCER0vl
 IrOuzsk0B
 eshHhnb;O
 XLeTYsbQq
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 3141
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2431
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -767,8 +622,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 88 0 R
 Type /Font
-Filter /FlateDecode
-Length 267
+Filter /
 BaseFont /AQEAQO
 Amiri-Regular
 DescendantFonts
@@ -776,10 +630,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 90 0 R
 Type /Font
-Filter /FlateDecode
-Length 343
-Filter /FlateDecode
-Length 544
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -790,32 +642,26 @@ Contents 97 0 R
 0 0 1920 1080
 LastModified (D:20251030210600
 Parent 441 0 R
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 57981
 NJ756BRJf
 BBFHxO-qrq
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1418
 BaseFont /AQEAQO
 Amiri-Regular
 DescendantFonts
@@ -823,10 +669,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 96 0 R
 Type /Font
-Filter /FlateDecode
-Length 293
-Filter /FlateDecode
-Length 203
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -850,595 +694,401 @@ Contents 177 0 R
 0 0 1920 1080
 LastModified (D:20251030210612
 Parent 441 0 R
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
 20MARKET.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 165670
-100 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 3979
-101 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 485
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 441
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 842
-102 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-103 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-104 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-105 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-106 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 496
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-FlateDecode /DCTDecode
+Type
 DecodeParms
 Quality 75
-Length 649
-107 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-108 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-109 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-110 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-111 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-112 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 252
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 455
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 4512
-113 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-114 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 252
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 364
-Filter /FlateDecode
-Length 296
-115 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Height 252
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 268
-Filter /FlateDecode
-Length 225
-116 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Height 200
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 176
-Filter /FlateDecode
-Length 131
-117 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Height 88
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-Filter /FlateDecode
-Length 49
-118 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+Filter /
+8
 Height 252
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-Filter /FlateDecode
-Length 231
-119 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+Filter /
+8
 Height 250
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 452
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 746
-120 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 250
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-Filter /FlateDecode
-Length 188
-121 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-122 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-123 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-124 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-125 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-126 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 23
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-Filter /FlateDecode
-Length 88
-127 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+Type
+Filter /
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 901
-128 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 889
-129 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 793
-130 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1191
-131 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 876
-132 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 756
-133 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-134 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-135 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-136 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-137 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-138 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-139 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-140 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-141 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-142 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-143 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-144 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-145 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 22
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-Filter /FlateDecode
-Length 82
-146 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-147 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 22
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-Filter /FlateDecode
-Length 81
-148 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-149 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 22
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-Filter /FlateDecode
-Length 64
-150 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-151 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-152 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-153 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 22
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-Filter /FlateDecode
-Length 74
-154 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-155 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 22
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-Filter /FlateDecode
-Length 30
-156 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-157 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 22
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-Filter /FlateDecode
-Length 83
-158 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-159 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 22
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-Filter /FlateDecode
-Length 32
-160 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+Filter /
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1151
-161 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 722
-162 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 685
-163 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-164 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 39
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 107
-Filter /FlateDecode
-Length 86
-165 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-166 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 39
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 107
-Filter /FlateDecode
-Length 81
-167 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 3750
-168 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1710
-169 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-170 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-171 0 obj
+Type
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -1446,10 +1096,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 172 0 R
 Type /Font
-172 0 obj
-Filter /FlateDecode
-Length 285
-173 0 obj
+Filter /
 BaseFont /AQEAQO
 Amiri-Bold
 DescendantFonts
@@ -1457,10 +1104,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 174 0 R
 Type /Font
-174 0 obj
-Filter /FlateDecode
-Length 367
-175 0 obj
+Filter /
 BaseFont /AQEAQO
 Amiri-Regular
 DescendantFonts
@@ -1468,13 +1112,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 176 0 R
 Type /Font
-176 0 obj
-Filter /FlateDecode
-Length 380
-177 0 obj
-Filter /FlateDecode
-Length 6902
-178 0 obj
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -1484,37 +1123,28 @@ Contents 183 0 R
 0 0 1920 1080
 LastModified (D:20251030210617
 Parent 441 0 R
-179 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
 20POSITIONING.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 233413
 ff;lT,Oubg
 1Ksfpz/g.-
 HO7pMqKRP
-180 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2615
-181 0 obj
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -1522,13 +1152,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 182 0 R
 Type /Font
-182 0 obj
-Filter /FlateDecode
-Length 265
-183 0 obj
-Filter /FlateDecode
-Length 148
-184 0 obj
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -1541,9 +1166,7 @@ Contents 199 0 R
 0 0 1920 1080
 LastModified (D:20251030210625
 Parent 441 0 R
-185 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
@@ -1551,119 +1174,82 @@ ImageName /PITCH
 20MODEL.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 255853
 e/rNTgKS_
-186 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 4235
-187 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 6334
-188 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 8238
-189 0 obj
-BitsPerComponent 1
-ColorSpace /DeviceGray
+1
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
 Filter /JBIG2Decode
-Length 172
-190 0 obj
-BitsPerComponent 1
-ColorSpace /DeviceGray
+1
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
 Filter /JBIG2Decode
-Length 173
-191 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 3815
-192 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 4588
 BNJJFJBNFFFAANI
-193 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 4335
-194 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 5106
-195 0 obj
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -1671,10 +1257,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 196 0 R
 Type /Font
-196 0 obj
-Filter /FlateDecode
-Length 310
-197 0 obj
+Filter /
 BaseFont /AQEAQO
 Amiri-Regular
 DescendantFonts
@@ -1682,13 +1265,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 198 0 R
 Type /Font
-198 0 obj
-Filter /FlateDecode
-Length 375
-199 0 obj
-Filter /FlateDecode
-Length 807
-200 0 obj
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -1708,407 +1286,273 @@ Contents 250 0 R
 0 0 1920 1080
 LastModified (D:20251030210633
 Parent 441 0 R
-201 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
 20ROADMAP.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 166146
-202 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 786
-203 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 889
-204 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 841
-205 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 794
-206 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-207 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-208 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-209 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-210 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2971
-211 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1520
-212 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1368
-213 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1509
-214 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1451
-215 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1166
-216 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1085
-217 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1045
-218 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 928
-219 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1006
-220 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1074
-221 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1069
-222 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 386
-Filter /FlateDecode
-Length 254
-223 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 388
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 750
-224 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 727
-Filter /FlateDecode
-Length 400
-225 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 731
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 942
-226 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-227 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-228 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-229 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-230 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 107
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-Filter /FlateDecode
-Length 55
-231 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+Filter /
+8
 Height 107
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-Filter /FlateDecode
-Length 84
-232 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-233 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 107
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-Filter /FlateDecode
-Length 18
-234 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+Filter /
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-235 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-236 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-237 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-238 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-239 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-240 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-241 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-242 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-243 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-244 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-245 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-246 0 obj
+Type
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -2116,10 +1560,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 247 0 R
 Type /Font
-247 0 obj
-Filter /FlateDecode
-Length 309
-248 0 obj
+Filter /
 BaseFont /AQEAQO
 Amiri-Regular
 DescendantFonts
@@ -2127,13 +1568,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 249 0 R
 Type /Font
-249 0 obj
-Filter /FlateDecode
-Length 372
-250 0 obj
-Filter /FlateDecode
-Length 2281
-251 0 obj
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -2151,9 +1587,7 @@ Contents 292 0 R
 0 0 1920 1080
 LastModified (D:20251030210642
 Parent 441 0 R
-252 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
@@ -2161,368 +1595,247 @@ ImageName /PITCH
 20PROPOSAL.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 159907
 Otof_QIaM
-253 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2850
-254 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1064
-255 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 53
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 626
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 7266
-256 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1178
-257 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 44
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 193
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2384
-258 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1096
-259 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-260 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1042
-261 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-262 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1070
-263 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 711
-264 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-265 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1007
-266 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 830
-267 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-268 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 932
-269 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 851
-270 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-271 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 952
-272 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 838
-273 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-274 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1070
-275 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 933
-276 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-277 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1169
-278 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-279 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 751
-280 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 827
-281 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-282 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1072
-283 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2062
-284 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-285 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 767
-286 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1038
-287 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-288 0 obj
+Type
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -2530,10 +1843,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 289 0 R
 Type /Font
-289 0 obj
-Filter /FlateDecode
-Length 375
-290 0 obj
+Filter /
 BaseFont /AQEAQO
 Amiri-Bold
 DescendantFonts
@@ -2541,13 +1851,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 291 0 R
 Type /Font
-291 0 obj
-Filter /FlateDecode
-Length 394
-292 0 obj
-Filter /FlateDecode
-Length 16869
-293 0 obj
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -2559,9 +1864,7 @@ Contents 306 0 R
 0 0 1920 1080
 LastModified (D:20251030210649
 Parent 441 0 R
-294 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
@@ -2569,73 +1872,51 @@ ImageName /PITCH
 20REQUEST.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 248394
-295 0 obj
-BitsPerComponent 1
-ColorSpace /DeviceGray
+1
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
 Filter /CCITTFaxDecode
 DecodeParms
 K -1 /Columns 1920
-Length 183
-296 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2183
-297 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-298 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-299 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-300 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-301 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2582
-302 0 obj
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -2643,10 +1924,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 303 0 R
 Type /Font
-303 0 obj
-Filter /FlateDecode
-Length 315
-304 0 obj
+Filter /
 BaseFont /AQEAQO
 Amiri-Regular
 DescendantFonts
@@ -2654,13 +1932,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 305 0 R
 Type /Font
-305 0 obj
-Filter /FlateDecode
-Length 328
-306 0 obj
-Filter /FlateDecode
-Length 610
-307 0 obj
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -2673,9 +1946,7 @@ Contents 325 0 R
 0 0 1920 1080
 LastModified (D:20251030210657
 Parent 441 0 R
-308 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
@@ -2683,140 +1954,95 @@ ImageName /PITCH
 20ACHIEVES.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 256529
 PacM,dd,Xk
-309 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 3426
-310 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 128
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 388
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 6319
-311 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2630
-312 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 3781
-313 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 131
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 570
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 7638
-314 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1179
-315 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 55
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 397
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 4917
-316 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1292
-317 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-318 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-319 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-320 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2377
-321 0 obj
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -2824,10 +2050,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 322 0 R
 Type /Font
-322 0 obj
-Filter /FlateDecode
-Length 311
-323 0 obj
+Filter /
 BaseFont /AQEAQO
 Amiri-Regular
 DescendantFonts
@@ -2835,14 +2058,9 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 324 0 R
 Type /Font
-324 0 obj
-Filter /FlateDecode
-Length 373
-325 0 obj
-Filter /FlateDecode
-Length 26968
+Filter /
+Filter /
 Lxi7U1QOkj
-326 0 obj
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -2855,9 +2073,7 @@ Contents 344 0 R
 0 0 1920 1080
 LastModified (D:20251030210706
 Parent 441 0 R
-327 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
@@ -2865,112 +2081,77 @@ ImageName /PITCH
 20PUBLISHED.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 239395
 5EnqxMgv_
 wnkr:nmfl
 4,mSsg-_DX
-328 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 955
-329 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2656
-330 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1020
-331 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-332 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-333 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-334 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-335 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-336 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-337 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-338 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-339 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 4081
-340 0 obj
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -2978,10 +2159,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 341 0 R
 Type /Font
-341 0 obj
-Filter /FlateDecode
-Length 329
-342 0 obj
+Filter /
 BaseFont /AQEAQO
 Amiri-Regular
 DescendantFonts
@@ -2989,13 +2167,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 343 0 R
 Type /Font
-343 0 obj
-Filter /FlateDecode
-Length 355
-344 0 obj
-Filter /FlateDecode
-Length 1009
-345 0 obj
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -3011,9 +2184,7 @@ Contents 380 0 R
 0 0 1920 1080
 LastModified (D:20251030210715
 Parent 441 0 R
-346 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
@@ -3021,335 +2192,226 @@ ImageName /PITCH
 20PRIZES.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 239524
 0 U0mPhIlF
 VAaaZ_Kdi
 Eywq2/dD0
-347 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 6497
-348 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1289
-349 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2419
-350 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2257
-351 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1407
-352 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 3027
-353 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-354 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2276
-355 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1990
-356 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 6221
 CDDDJBJOFF/
-357 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1283
-358 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1889
-359 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2797
-360 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 674
-361 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 859
-362 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2611
-363 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 705
-364 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 713
-365 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 3264
-366 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 663
-367 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 771
-368 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 3465
-369 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 535
-370 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 686
-371 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 3547
-372 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 625
-373 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 846
-374 0 obj
 BaseFont /AQEAQO
 Amiri-Regular
 DescendantFonts
@@ -3357,10 +2419,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 375 0 R
 Type /Font
-375 0 obj
-Filter /FlateDecode
-Length 440
-376 0 obj
+Filter /
 BaseFont /ACHVTR
 Helvetica-Black-SemiBold
 DescendantFonts
@@ -3368,10 +2427,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 377 0 R
 Type /Font
-377 0 obj
-Filter /FlateDecode
-Length 325
-378 0 obj
+Filter /
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -3379,13 +2435,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 379 0 R
 Type /Font
-379 0 obj
-Filter /FlateDecode
-Length 316
-380 0 obj
-Filter /FlateDecode
-Length 1617
-381 0 obj
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -3399,9 +2450,7 @@ Contents 404 0 R
 0 0 1920 1080
 LastModified (D:20251030210723
 Parent 442 0 R
-382 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
@@ -3409,195 +2458,132 @@ ImageName /PITCH
 20copia.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 220628
 44)-Kee(o
 wi)P9tvpiJ
-383 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2474
-384 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 3525
-385 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 608
-386 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 866
-387 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 4315
-388 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 682
-389 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1190
-390 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 903
-391 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 10757
-392 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2476
-393 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 909
-394 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 856
-395 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2784
-396 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 889
-397 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 848
-398 0 obj
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -3605,10 +2591,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 399 0 R
 Type /Font
-399 0 obj
-Filter /FlateDecode
-Length 310
-400 0 obj
+Filter /
 BaseFont /AQEAQO
 Amiri-Regular
 DescendantFonts
@@ -3616,10 +2599,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 401 0 R
 Type /Font
-401 0 obj
-Filter /FlateDecode
-Length 448
-402 0 obj
+Filter /
 BaseFont /ACHVTR
 Helvetica-Black-SemiBold
 DescendantFonts
@@ -3627,13 +2607,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 403 0 R
 Type /Font
-403 0 obj
-Filter /FlateDecode
-Length 315
-404 0 obj
-Filter /FlateDecode
-Length 1380
-405 0 obj
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -3643,35 +2618,26 @@ Contents 410 0 R
 0 0 1920 1080
 LastModified (D:20251030210729
 Parent 442 0 R
-406 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
 20SHORT14.TEAM.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 242144
 1FpiBbDpZ
-407 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 2652
-408 0 obj
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -3679,13 +2645,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 409 0 R
 Type /Font
-409 0 obj
-Filter /FlateDecode
-Length 267
-410 0 obj
-Filter /FlateDecode
-Length 146
-411 0 obj
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -3696,9 +2657,7 @@ Contents 420 0 R
 0 0 1920 1080
 LastModified (D:20251030210736
 Parent 442 0 R
-412 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
@@ -3707,51 +2666,36 @@ ImageName /PITCH
 20INFO.jpg
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 250331
 L(Ra8nuyUa
 h8dM,;EtN
-413 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceGray
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 833
-414 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 5489
-415 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 3212
-416 0 obj
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 DescendantFonts
@@ -3759,10 +2703,7 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 417 0 R
 Type /Font
-417 0 obj
-Filter /FlateDecode
-Length 276
-418 0 obj
+Filter /
 BaseFont /AQEAQO
 Amiri-Regular
 DescendantFonts
@@ -3770,13 +2711,8 @@ Encoding /Identity-H
 Subtype /Type0
 ToUnicode 419 0 R
 Type /Font
-419 0 obj
-Filter /FlateDecode
-Length 438
-420 0 obj
-Filter /FlateDecode
-Length 687
-421 0 obj
+Filter /
+Filter /
 Type /Page
 0 0 1920 1080
 0 0 1920 1080
@@ -3786,12 +2722,8 @@ Contents 422 0 R
 0 0 1920 1080
 LastModified (D:20251030210749
 Parent 442 0 R
-422 0 obj
-Filter /FlateDecode
-Length 35
-423 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Height 1080
 ImageName /PITCH
 20ALCHEMICE
@@ -3800,44 +2732,31 @@ ImageName /PITCH
 Intent /Perceptual
 SMask 449 0 R
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 169712
 dikfuCLXMf
 YIrRik2(H1m
-424 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Height 929
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-FlateDecode /DCTDecode
+Type
 DecodeParms
 Quality 75
-Length 545
-425 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+8
 Intent /Perceptual
 Subtype /Image
-Type /XObject
-426 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Type
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 5526
-427 0 obj
 BaseFont /BBFIHV
 MorrisRomanAlternate-Black
 CIDSystemInfo
@@ -3848,7 +2767,6 @@ CIDToGIDMap /Identity
 FontDescriptor 428 0 R
 Subtype /CIDFontType2
 Type /Font
-428 0 obj
 Ascent 854
 AvgWidth 475
 CapHeight 642
@@ -3862,14 +2780,9 @@ MaxWidth 1471
 StemV 104
 Type /FontDescriptor
 XHeight 453
-429 0 obj
 Length1 15476
-Filter /FlateDecode
-Length 9772
-430 0 obj
-Filter /FlateDecode
-Length 293
-431 0 obj
+Filter /
+Filter /
 BaseFont /AQEAQO
 Amiri-Regular
 CIDSystemInfo
@@ -3880,7 +2793,6 @@ CIDToGIDMap /Identity
 FontDescriptor 432 0 R
 Subtype /CIDFontType2
 Type /Font
-432 0 obj
 Ascent 1815
 AvgWidth 472
 CapHeight 646
@@ -3893,23 +2805,16 @@ ItalicAngle 0
 MaxWidth 5000
 Type /FontDescriptor
 XHeight 420
-433 0 obj
 Length1 64384
-Filter /FlateDecode
-Length 22306
-434 0 obj
-BitsPerComponent 8
-ColorSpace /DeviceRGB
+Filter /
+8
 Height 1080
 Intent /Perceptual
 Subtype /Image
-Type /XObject
+Type
 Width 1920
-FlateDecode /DCTDecode
 DecodeParms
 Quality 75
-Length 1917
-435 0 obj
 BaseFont /AQEAQO
 Amiri-Bold
 CIDSystemInfo
@@ -3920,7 +2825,6 @@ CIDToGIDMap /Identity
 FontDescriptor 436 0 R
 Subtype /CIDFontType2
 Type /Font
-436 0 obj
 Ascent 1823
 AvgWidth 490
 CapHeight 646
@@ -3934,7 +2838,6 @@ MaxWidth 5000
 StemV 128
 Type /FontDescriptor
 XHeight 433
-437 0 obj
 BaseFont /ACHVTR
 Helvetica-Black-SemiBold
 CIDSystemInfo
@@ -3945,7 +2848,6 @@ CIDToGIDMap /Identity
 FontDescriptor 438 0 R
 Subtype /CIDFontType2
 Type /Font
-438 0 obj
 Ascent 698
 AvgWidth 533
 CapHeight 647
@@ -3959,23 +2861,17 @@ MaxWidth 1108
 StemV 192
 Type /FontDescriptor
 XHeight 466
-439 0 obj
 Length1 5180
-Filter /FlateDecode
-Length 3161
-440 0 obj
+Filter /
 Type /Pages
 441 0 R 442 0 R
-441 0 obj
 Type /Pages
 446 0 R 1 0 R 9 0 R 17 0 R 29 0 R 56 0 R 72 0 R 77 0 R 80 0 R 83 0 R
 92 0 R 98 0 R 178 0 R 184 0 R 200 0 R 251 0 R 293 0 R 307 0 R 326 0 R
 Parent 440 0 R
-442 0 obj
 Type /Pages
 Parent 440 0 R
 381 0 R 405 0 R 411 0 R 421 0 R
-443 0 obj
 CreationDate (D:20251030210749
 Creator (PDF Presentation Adobe Photoshop )
 Producer (Heyzine.com_1.1.3)
