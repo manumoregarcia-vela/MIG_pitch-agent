@@ -11,6 +11,20 @@ from xml.etree import ElementTree
 SUPPORTED_EXTENSIONS = {".pdf", ".docx", ".txt"}
 
 
+PDF_NOISE_PATTERNS = [
+    r"\b\d+\s+\d+\s+obj\b",
+    r"\bendobj\b",
+    r"\bstream\b",
+    r"\bendstream\b",
+    r"/Type\s*/Page",
+    r"/XObject",
+    r"FlateDecode",
+    r"BitsPerComponent",
+    r"ColorSpace",
+    r"Length\s+\d+",
+]
+
+
 def list_supported_documents(data_dir: Path) -> list[Path]:
     """Return supported document files inside data_dir, sorted by name."""
     if not data_dir.exists() or not data_dir.is_dir():
@@ -24,16 +38,34 @@ def list_supported_documents(data_dir: Path) -> list[Path]:
     return sorted(files, key=lambda p: p.name.lower())
 
 
+def _clean_pdf_extracted_text(text: str) -> str:
+    cleaned = text
+    for pattern in PDF_NOISE_PATTERNS:
+        cleaned = re.sub(pattern, " ", cleaned, flags=re.IGNORECASE)
+
+    lines = []
+    for raw_line in cleaned.splitlines():
+        line = re.sub(r"\s+", " ", raw_line).strip()
+        if not line:
+            continue
+        if line.startswith(("/", "<<", ">>")) and len(line.split()) < 8:
+            continue
+        lines.append(line)
+    return "\n".join(lines).strip()
+
+
 def extract_text_from_pdf(path: Path) -> str:
     """Extract text from a PDF file using pypdf, falling back to pdftotext."""
     try:
         from pypdf import PdfReader
+
         reader = PdfReader(str(path))
         chunks: list[str] = []
-        for page in reader.pages:
+        for idx, page in enumerate(reader.pages, start=1):
             text = page.extract_text() or ""
+            text = _clean_pdf_extracted_text(text)
             if text:
-                chunks.append(text)
+                chunks.append(f"[PAGE {idx}]\n{text}")
         return "\n\n".join(chunks).strip()
     except ImportError:
         pass
@@ -46,7 +78,7 @@ def extract_text_from_pdf(path: Path) -> str:
             check=False,
         )
         if result.returncode == 0 and result.stdout.strip():
-            return result.stdout.strip()
+            return _clean_pdf_extracted_text(result.stdout.strip())
     except FileNotFoundError:
         pass
 
@@ -58,7 +90,7 @@ def extract_text_from_pdf(path: Path) -> str:
         for chunk in decoded_chunks
         if not chunk.startswith(("obj", "endobj", "stream", "endstream", "/")) and len(chunk) > 8
     ]
-    fallback_text = "\n".join(filtered)
+    fallback_text = _clean_pdf_extracted_text("\n".join(filtered))
     if fallback_text:
         return fallback_text
 
@@ -69,6 +101,7 @@ def extract_text_from_docx(path: Path) -> str:
     """Extract text from a DOCX file using python-docx, with stdlib fallback."""
     try:
         import docx
+
         document = docx.Document(str(path))
         lines = [paragraph.text.strip() for paragraph in document.paragraphs if paragraph.text.strip()]
         return "\n".join(lines).strip()
@@ -101,6 +134,32 @@ def extract_text_from_document(path: Path) -> str:
     if suffix == ".txt":
         return extract_text_from_txt(path)
     raise ValueError(f"Unsupported file type: {path.suffix}")
+
+
+def extract_document_with_hints(path: Path) -> dict[str, Any]:
+    raw_text = extract_text_from_document(path)
+
+    page_hints: list[dict[str, Any]] = []
+    page_chunks = re.split(r"\[PAGE\s+(\d+)\]", raw_text)
+    if len(page_chunks) > 1:
+        for i in range(1, len(page_chunks), 2):
+            page_num = int(page_chunks[i])
+            page_text = page_chunks[i + 1].strip() if i + 1 < len(page_chunks) else ""
+            sample = " ".join(page_text.split())[:240]
+            page_hints.append(
+                {
+                    "page": page_num,
+                    "char_count": len(page_text),
+                    "word_count": len(re.findall(r"[A-Za-z][A-Za-z\-']{2,}", page_text)),
+                    "sample_text": sample,
+                }
+            )
+
+    return {
+        "raw_text": raw_text,
+        "page_hints": page_hints,
+        "source_file": path.name,
+    }
 
 
 def _find_first(raw_text: str, patterns: list[str]) -> str:

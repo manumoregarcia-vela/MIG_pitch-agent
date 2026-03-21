@@ -65,6 +65,7 @@
     "Missing: traction.steam_wishlists",
     "Missing: traction.demo_downloads",
     "Missing: traction.trailer_views",
-    "Missing: traction.community_size"
+    "Missing: traction.community_size",
+    "Fallback mode used due to poor extraction quality"
   ]
 }

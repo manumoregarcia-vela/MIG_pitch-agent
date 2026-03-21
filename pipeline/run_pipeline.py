@@ -6,12 +6,12 @@ from pathlib import Path
 from typing import Any
 
 from agents.document_ingestion_agent import (
-    build_normalized_input,
-    extract_text_from_document,
+    extract_document_with_hints,
     list_supported_documents,
     load_studio_input_json,
-    parse_studio_document,
 )
+from agents.document_normalizer_agent import normalize_document_content
+from agents.document_quality_agent import assess_extraction_quality
 from agents.ingestion_agent import load_mock_studio_input
 from agents.pitch_strategist_agent import build_structured_summary, recommend_strategy
 from agents.qa_agent import generate_qa_report
@@ -75,12 +75,26 @@ def _load_studio_input(
         if not selected.exists() or not selected.is_file():
             raise FileNotFoundError(f"Input document not found: {selected}")
 
-        raw_text = extract_text_from_document(selected)
+        extracted = extract_document_with_hints(selected)
+        raw_text = extracted["raw_text"]
+        page_hints = extracted.get("page_hints", [])
+
         (outputs_dir / "raw_extracted_text.txt").write_text(raw_text, encoding="utf-8")
 
-        parsed = parse_studio_document(raw_text, source_file=selected.name)
-        studio_input = build_normalized_input(parsed, source_file=selected.name)
+        quality_report = assess_extraction_quality(raw_text)
+        _write_json(outputs_dir / "extraction_quality.json", quality_report)
+
+        studio_input, normalization_mode, reasons = normalize_document_content(
+            raw_text=raw_text,
+            source_file=selected.name,
+            quality_report=quality_report,
+            page_hints=page_hints,
+        )
         _write_json(outputs_dir / "normalized_input.json", studio_input)
+
+        reason_msg = "; ".join(reasons) if reasons else "No quality issues detected"
+        print(f"[document-mode] normalization_mode={normalization_mode}")
+        print(f"[document-mode] quality={quality_report.get('quality')} reasons={reason_msg}")
 
         return studio_input, selected.name
 
