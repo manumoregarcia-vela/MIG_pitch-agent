@@ -2,17 +2,19 @@
   "slides": [
     {
       "slide_number": 1,
-      "slide_title": "Echoes of Titanium — Fast, Skillful Mech Combat",
-      "slide_objective": "Capture immediate interest with a clear product hook.",
-      "key_message": "High-speed mech combat in procedural arenas",
+      "slide_title": "Echoes of Titanium — Hook del juego",
+      "slide_objective": "Captar interés inmediato con una propuesta de valor clara.",
+      "key_message": "El juego ofrece una propuesta central clara: High-speed mech combat in procedural arenas.",
       "content_blocks": [
-        "One-line fantasy statement",
-        "Genre + platform badges",
-        "Studio identity"
+        "Fantasy principal: High-speed mech combat in procedural arenas",
+        "Género: Action Roguelite",
+        "Plataformas: PC (Steam), PlayStation 5",
+        "Estudio: Neon Lynx Studio"
       ],
       "suggested_visuals": [
         "Key art",
-        "Logo"
+        "Logo",
+        "Screenshot principal"
       ],
       "source_reference": [
         "game_profile",
@@ -23,17 +25,18 @@
     },
     {
       "slide_number": 2,
-      "slide_title": "Gameplay Proof",
-      "slide_objective": "Demonstrate game quality and marketability through video.",
-      "key_message": "Gameplay loop is visually strong and trailer-ready.",
+      "slide_title": "Gameplay + prueba visual",
+      "slide_objective": "Demostrar calidad de producto y claridad de gameplay.",
+      "key_message": "Las señales tempranas de tracción sugieren interés real antes del lanzamiento.",
       "content_blocks": [
-        "Gameplay video link",
-        "3 core loop bullets",
-        "Screenshot strip"
+        "Vídeo o trailer de gameplay",
+        "3 bullets del core loop",
+        "Estado de desarrollo: Public demo available; vertical slice complete"
       ],
       "suggested_visuals": [
-        "Gameplay trailer embed",
-        "In-game screenshots"
+        "Gameplay video",
+        "Capturas in-game",
+        "GIF de loop principal"
       ],
       "source_reference": [
         "assets",
@@ -43,17 +46,19 @@
     },
     {
       "slide_number": 3,
-      "slide_title": "Traction Signals",
-      "slide_objective": "Show validated early interest from players.",
-      "key_message": "38,200 wishlists and 9,100 demo downloads show demand before launch.",
+      "slide_title": "Tracción y validación",
+      "slide_objective": "Mostrar señales reales de interés temprano.",
+      "key_message": "La credibilidad del equipo debe explicarse mejor para compensar riesgo de ejecución.",
       "content_blocks": [
-        "Wishlist KPI",
-        "Demo downloads KPI",
-        "Community + trailer social proof"
+        "Steam wishlists: 38200",
+        "Demo downloads: 9100",
+        "Comunidad / followers: N/A",
+        "Trailer views / social proof: N/A"
       ],
       "suggested_visuals": [
-        "KPI cards",
-        "Simple growth chart"
+        "Tarjetas KPI",
+        "Mini gráfico",
+        "Logos de festivales o validaciones"
       ],
       "source_reference": [
         "traction"
@@ -62,18 +67,21 @@
     },
     {
       "slide_number": 4,
-      "slide_title": "Why This Opportunity, Why Now",
-      "slide_objective": "Frame timing and strategic relevance for publishers/investors.",
-      "key_message": "A proven genre + polished demo creates a timely launch window.",
+      "slide_title": "Why now / oportunidad",
+      "slide_objective": "Explicar por qué este juego merece atención ahora.",
+      "key_message": "El caso debe enfatizar marketability, encaje editorial y soporte de lanzamiento.",
       "content_blocks": [
-        "Genre momentum statement",
-        "Festival validation",
-        "Execution timing"
+        "Audiencia objetivo: Core PC/console players aged 18-34",
+        "Posicionamiento frente a comparables",
+        "Ventana de oportunidad / momentum"
       ],
       "suggested_visuals": [
-        "Positioning matrix"
+        "Mapa de posicionamiento",
+        "Comparables",
+        "Trend snapshot"
       ],
       "source_reference": [
+        "business",
         "game_profile",
         "traction"
       ],
@@ -81,16 +89,19 @@
     },
     {
       "slide_number": 5,
-      "slide_title": "Business Model & Launch Plan",
-      "slide_objective": "Explain monetization logic and go-to-market intent.",
+      "slide_title": "Modelo de negocio y plan de lanzamiento",
+      "slide_objective": "Explicar cómo se convierte el interés en negocio.",
       "key_message": "Premium game + cosmetic DLC",
       "content_blocks": [
-        "Revenue model",
-        "Launch channels",
-        "Co-marketing rationale"
+        "Modelo de negocio: Premium game + cosmetic DLC",
+        "Canales de lanzamiento previstos",
+        "Racional de publishing / co-marketing",
+        "Cómo un publisher acelera el go-to-market"
       ],
       "suggested_visuals": [
-        "Go-to-market timeline"
+        "Timeline de lanzamiento",
+        "Diagrama GTM",
+        "Modelo simplificado"
       ],
       "source_reference": [
         "business"
@@ -99,17 +110,18 @@
     },
     {
       "slide_number": 6,
-      "slide_title": "Team",
-      "slide_objective": "Reduce execution risk with relevant team credentials.",
-      "key_message": "The core team has direct experience shipping high-quality action titles.",
+      "slide_title": "Equipo",
+      "slide_objective": "Reducir riesgo de ejecución mostrando credenciales del equipo.",
+      "key_message": "El equipo presenta credenciales relevantes para ejecutar producto y lanzamiento.",
       "content_blocks": [
-        "Founder bios",
-        "Role-fit highlights",
-        "Team size and setup"
+        "Tamaño del equipo: 3",
+        "Roles clave y complementariedad",
+        "Experiencia relevante / shipped titles / background"
       ],
       "suggested_visuals": [
         "Headshots",
-        "Role cards"
+        "Role cards",
+        "Organigrama simple"
       ],
       "source_reference": [
         "team",
@@ -119,16 +131,19 @@
     },
     {
       "slide_number": 7,
-      "slide_title": "The Ask",
-      "slide_objective": "End with a clear and actionable partnership request.",
+      "slide_title": "El ask",
+      "slide_objective": "Cerrar con una petición clara, concreta y accionable.",
       "key_message": "Publishing partner for global launch + co-marketing",
       "content_blocks": [
-        "Partnership ask",
-        "Expected publisher contribution",
-        "Next meeting CTA"
+        "Ask principal: Publishing partner for global launch + co-marketing",
+        "Soporte editorial / publishing esperado",
+        "Contribución en marketing, distribución o UA",
+        "Siguiente paso propuesto: meeting / materials / build review"
       ],
       "suggested_visuals": [
-        "Partnership model diagram"
+        "Diagrama de partnership",
+        "CTA final",
+        "Timeline de next steps"
       ],
       "source_reference": [
         "business"

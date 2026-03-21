@@ -1,23 +1,24 @@
 # Pitch Strategy
 
-## Audience principal
-publisher-first (mixed-compatible)
+## Audience
+publisher-first
 
-## Recomendación narrativa
-Lead with product fantasy and proof of player pull, then de-risk execution with team credibility and clear publishing ask.
+## Narrative recommendation
+Abrir con fantasy y calidad de producto, demostrar marketability con gameplay y tracción, y cerrar con un ask claro de publishing/co-marketing.
 
-## Mensajes prioritarios
-- The game has a clear, marketable hook (high-speed mech roguelite fantasy).
-- Early traction signals indicate meaningful player interest pre-launch.
-- Team profile reduces execution risk for final production and launch.
-- The studio needs a publisher for global distribution and co-marketing scale.
+## Priority messages
+- El juego ofrece una propuesta central clara: High-speed mech combat in procedural arenas.
+- Las señales tempranas de tracción sugieren interés real antes del lanzamiento.
+- La credibilidad del equipo debe explicarse mejor para compensar riesgo de ejecución.
+- El caso debe enfatizar marketability, encaje editorial y soporte de lanzamiento.
 
-## Riesgos o debilidades a compensar
-- Missing retention metrics weakens long-term engagement argument.
-- Unknown launch budget split reduces financial clarity.
-- UA efficiency data is absent, limiting paid growth confidence.
+## Risks to compensate
+- La lógica de negocio y monetización necesita mayor claridad.
+- La narrativa del equipo puede no ser suficiente para reducir el riesgo de ejecución.
+- No retention metrics from demo sessions
+- No CPI/UA efficiency benchmarks
 
-## Orden recomendado de slides
+## Recommended slide order
 1. Hook + game fantasy
 2. Gameplay + video proof
 3. Traction and validation
