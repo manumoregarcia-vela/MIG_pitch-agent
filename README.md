@@ -2,39 +2,51 @@
 
 Demo Day-oriented pitch strategy generator for game studios.
 
-## What changed in this refactor
-- `pitch_strategist_agent` logic is now opinionated for top-tier publisher/investor review.
-- Explicit 1-5 scoring for: `product`, `traction`, `market`, `business_model`, `team`, `ask`.
-- Default audience is `mixed` and narrative is adapted for publisher + investor interest.
-- Slide prioritization enforces a 5-8 slide plan centered on gameplay clarity, traction, differentiation, and execution credibility.
-- Weakness detection adds compensation narratives to avoid low-confidence pitches.
-- `pitch_strategy.md` output now includes scoring breakdown, narrative angle, key selling points, risks, and positioning.
+## Overview
 
-## Files
-- `agents.py`: strategist logic + markdown renderer.
-- `app.py`: CLI pipeline that reads a studio input and writes `pitch_strategy.md` plus JSON.
-- `schemas.json`: output schema for strategy validation.
-- `examples/studio_input.json`: executable sample input.
+Sistema de agentes para generar y optimizar pitches de videojuegos (5-8 slides) orientados a Demo Day, maximizando interés de publishers e inversores.
 
-## Usage
-```bash
-python app.py --input examples/studio_input.json --output pitch_strategy.md --audience mixed
-```
+---
 
-Options for `--audience`:
-- `mixed` (default)
-- `publisher-first`
-- `investor-first`
+## What this version implements
 
-## Output
-- `pitch_strategy.md`
-- `pitch_strategy.json`
+### Core capabilities
 
-Both are generated from the same strategy object.
-V1 mínima de un sistema de agentes para generar pitches de videojuegos para Demo Day.
+- Generación de estrategia de pitch basada en un framework de evaluación.
+- Adaptación de narrativa según audiencia:
+  - `mixed` (default)
+  - `publisher-first`
+  - `investor-first`
+- Priorización de contenido para decks de 5-8 slides:
+  - claridad de gameplay
+  - tracción
+  - diferenciación
+  - credibilidad de ejecución
+- Detección de debilidades y compensación narrativa.
 
-## Qué implementa esta V1
-Pipeline end-to-end con input mock hardcodeado que genera:
+---
+
+## Evaluation framework
+
+Scoring explícito (1–5) en:
+
+- `product`
+- `traction`
+- `market`
+- `business_model`
+- `team`
+- `ask`
+
+Incluye:
+- separación de `facts`, `inferences` y `missing_critical_info`
+- narrativa optimizada para Demo Day
+- posicionamiento, riesgos y key selling points
+
+---
+
+## Pipeline
+
+Pipeline end-to-end que genera automáticamente:
 
 - `outputs/structured_summary.json`
 - `outputs/pitch_strategy.md`
@@ -42,45 +54,29 @@ Pipeline end-to-end con input mock hardcodeado que genera:
 - `outputs/draft_deck.md`
 - `outputs/qa_report.md`
 
-Arquitectura implementada:
+---
 
-- `ingestion` (mock)
-- `pitch_strategist` (framework de evaluación con separación de hechos/inferencias/missing)
+## Architecture
+
+- `ingestion` (mock input)
+- `pitch_strategist` (evaluación + narrativa)
 - `slide_writer`
 - `qa_agent`
 
-## Estructura de carpetas
+---
 
-- `agents/`: agentes/módulos especializados
-- `pipeline/`: orquestación de ejecución
+## Project structure
+
+- `agents/`: lógica de agentes
+- `pipeline/`: orquestación
 - `outputs/`: artefactos generados
-- `app.py`: entrypoint simple
+- `app.py`: entrypoint
 
-## Cómo ejecutar
+---
 
-Requisitos: Python 3.10+
+## Usage
+
+### Simple run (full pipeline)
 
 ```bash
 python app.py
-```
-
-Al ejecutar, se regeneran todos los outputs en la carpeta `outputs/`.
-
-## Principios de calidad aplicados
-
-- No inventar datos: toda la información factual proviene del input mock.
-- Separación explícita de:
-  - hechos (`facts`)
-  - inferencias (`inferences`)
-  - datos faltantes (`missing_critical_info`)
-- Trazabilidad mediante `source_map`.
-
-## TODOs V2
-
-- TODO: **Research Agent** para enriquecer datos desde fuentes públicas (web/store/social/press).
-- TODO: **Validation Agent** para verificar claims y consistencia inter-fuente con scoring de confianza.
-- TODO: **PPTX generation** con plantilla base e inserción automática de assets.
-
-## Nota de alcance
-
-Esta versión prioriza simplicidad y claridad del flujo sobre complejidad. Está preparada para ampliar con parsing documental, LLM prompts desacoplados y generación de PPTX en iteraciones siguientes.
