@@ -1,1 +1,87 @@
-
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pitch Strategy Output",
+  "type": "object",
+  "required": [
+    "audience",
+    "narrative_angle",
+    "scoring_breakdown",
+    "key_selling_points",
+    "risks",
+    "how_to_position_them",
+    "recommended_slides"
+  ],
+  "properties": {
+    "audience": {
+      "type": "string",
+      "enum": ["mixed", "publisher-first", "investor-first"]
+    },
+    "narrative_angle": {
+      "type": "string"
+    },
+    "scoring_breakdown": {
+      "type": "object",
+      "required": ["product", "traction", "market", "business_model", "team", "ask"],
+      "additionalProperties": false,
+      "properties": {
+        "product": {"$ref": "#/$defs/scoreWithReasoning"},
+        "traction": {"$ref": "#/$defs/scoreWithReasoning"},
+        "market": {"$ref": "#/$defs/scoreWithReasoning"},
+        "business_model": {"$ref": "#/$defs/scoreWithReasoning"},
+        "team": {"$ref": "#/$defs/scoreWithReasoning"},
+        "ask": {"$ref": "#/$defs/scoreWithReasoning"}
+      }
+    },
+    "key_selling_points": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "weakness_detection": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/weakness"}
+    },
+    "risks": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "how_to_position_them": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "recommended_slides": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 8,
+      "items": {"$ref": "#/$defs/slide"}
+    }
+  },
+  "$defs": {
+    "scoreWithReasoning": {
+      "type": "object",
+      "required": ["score", "reasoning"],
+      "properties": {
+        "score": {"type": "integer", "minimum": 1, "maximum": 5},
+        "reasoning": {"type": "string"}
+      }
+    },
+    "weakness": {
+      "type": "object",
+      "required": ["area", "score", "why_weak", "compensation_narrative"],
+      "properties": {
+        "area": {"type": "string"},
+        "score": {"type": "integer", "minimum": 1, "maximum": 2},
+        "why_weak": {"type": "string"},
+        "compensation_narrative": {"type": "string"}
+      }
+    },
+    "slide": {
+      "type": "object",
+      "required": ["slide_number", "title", "objective"],
+      "properties": {
+        "slide_number": {"type": "integer", "minimum": 1, "maximum": 8},
+        "title": {"type": "string"},
+        "objective": {"type": "string"}
+      }
+    }
+  }
+}
