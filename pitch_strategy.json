@@ -1,0 +1,77 @@
+{
+  "audience": "mixed",
+  "narrative_angle": "Mixed audience strategy: open with undeniable gameplay fantasy, then bridge directly into traction and execution proof. Balance publisher confidence (marketability + launch readiness) with investor confidence (scalable upside + milestone discipline). Current strength center: traction, team.",
+  "scoring_breakdown": {
+    "product": {
+      "score": 4,
+      "reasoning": "Gameplay clarity and unique hook are well evidenced."
+    },
+    "traction": {
+      "score": 5,
+      "reasoning": "Based on quantity and concreteness of KPIs / external validation signals."
+    },
+    "market": {
+      "score": 4,
+      "reasoning": "Market opportunity framing is explicit."
+    },
+    "business_model": {
+      "score": 4,
+      "reasoning": "Monetization and go-to-market are clear enough for a first pass."
+    },
+    "team": {
+      "score": 5,
+      "reasoning": "Execution credibility inferred from team completeness and leadership coverage."
+    },
+    "ask": {
+      "score": 5,
+      "reasoning": "Ask is specific and decision-friendly."
+    }
+  },
+  "key_selling_points": [
+    "Gameplay-first pitch opening to win attention in under 30 seconds.",
+    "Evidence-led traction narrative: only hard signals, no buzzword inflation.",
+    "Competitive differentiation framed through player fantasy + execution edge.",
+    "Clear milestone ask that maps partner capital to measurable outcomes.",
+    "Team credibility supports delivery risk mitigation.",
+    "Development stage clarity: Vertical slice completed."
+  ],
+  "weakness_detection": [],
+  "risks": [
+    "Overloading slides with detail despite strong fundamentals."
+  ],
+  "how_to_position_them": [
+    "Keep deck to high-signal proof points and use backup slides for depth."
+  ],
+  "recommended_slides": [
+    {
+      "title": "Hook + Gameplay Clarity",
+      "objective": "Show the core loop and player fantasy immediately.",
+      "slide_number": 1
+    },
+    {
+      "title": "Traction Signals",
+      "objective": "Present KPIs, wishlists, tests, and external validation.",
+      "slide_number": 2
+    },
+    {
+      "title": "Differentiation",
+      "objective": "Explain why this game wins versus direct alternatives.",
+      "slide_number": 3
+    },
+    {
+      "title": "Execution Credibility",
+      "objective": "Prove team capability, roadmap realism, and delivery plan.",
+      "slide_number": 4
+    },
+    {
+      "title": "Business Model + Market",
+      "objective": "Show monetization logic and market timing for upside.",
+      "slide_number": 5
+    },
+    {
+      "title": "The Ask + Next Milestones",
+      "objective": "Make the partnership decision clear and time-bound.",
+      "slide_number": 6
+    }
+  ]
+}
