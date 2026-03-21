@@ -3,177 +3,377 @@ from __future__ import annotations
 from typing import Any, Dict, List
 
 
-def _safe_text(value: Any) -> str:
-    return str(value or "").strip().lower()
+def _safe_list(value: Any) -> List[Any]:
+    if isinstance(value, list):
+        return value
+    if value is None:
+        return []
+    return [value]
 
 
 def _infer_audience_type(current_ask: str) -> str:
-    ask = _safe_text(current_ask)
+    ask = current_ask.lower()
 
-    if any(token in ask for token in ["publish", "publisher", "co-marketing", "marketing"]):
-        return "publisher"
-    if any(token in ask for token in ["invest", "fund", "seed", "series", "equity"]):
-        return "investor"
-    if any(token in ask for token in ["platform", "distribution", "storefront"]):
-        return "platform"
-    if any(token in ask for token in ["grant", "public funding", "subsidy"]):
-        return "grant"
-    return "general-partner"
+    has_publisher = any(term in ask for term in ["publisher", "publishing", "co-marketing", "distribution"])
+    has_investor = any(term in ask for term in ["investment", "funding", "raise", "capital", "financing"])
+
+    if has_publisher and has_investor:
+        return "mixed"
+    if has_publisher:
+        return "publisher-first"
+    if has_investor:
+        return "investor-first"
+    return "mixed"
 
 
-def _score_dimension(summary: Dict[str, Any], audience_type: str) -> Dict[str, int]:
-    facts = summary["facts"]
-    missing = summary["missing_critical_info"]
+def _build_proof_points(traction: Dict[str, Any], source_map: Dict[str, Any]) -> List[str]:
+    proof_points: List[str] = []
 
-    traction = facts.get("traction_signals", {})
-    team = facts.get("team", [])
+    if traction.get("steam_wishlists"):
+        proof_points.append(f"{traction['steam_wishlists']:,} Steam wishlists")
 
-    product_score = 2
-    if facts.get("USP"):
-        product_score += 1
-    if facts.get("development_stage"):
-        product_score += 1
-    if facts.get("available_assets", {}).get("gameplay_video"):
-        product_score += 1
+    if traction.get("demo_downloads"):
+        proof_points.append(f"{traction['demo_downloads']:,} demo downloads")
 
-    traction_score = 2
-    numeric_signals = [
-        traction.get("steam_wishlists", 0),
-        traction.get("demo_downloads", 0),
-        traction.get("youtube_trailer_views", 0),
-        traction.get("discord_members", 0),
-    ]
-    if any(v and v > 0 for v in numeric_signals):
-        traction_score += 1
-    if any(v and v >= 10000 for v in numeric_signals):
-        traction_score += 1
-    if traction.get("festival_selection"):
-        traction_score += 1
+    if traction.get("trailer_views"):
+        proof_points.append(f"{traction['trailer_views']:,} trailer views")
 
-    market_score = 2
-    if facts.get("genre"):
-        market_score += 1
-    if facts.get("audience"):
-        market_score += 1
-    if "market" in _safe_text(facts.get("audience")):
-        market_score += 1
+    if traction.get("community_size"):
+        proof_points.append(f"{traction['community_size']:,} community members/followers")
 
-    business_model_score = 2
-    if facts.get("business_model"):
-        business_model_score += 1
-    if facts.get("funding_status"):
-        business_model_score += 1
-    if not any("budget" in _safe_text(gap) for gap in missing):
-        business_model_score += 1
+    if source_map.get("festival_validation"):
+        proof_points.append(str(source_map["festival_validation"]))
 
-    team_score = 2
-    if team:
-        team_score += 1
-    if len(team) >= 3:
-        team_score += 1
-    if any(_safe_text(member.get("credential")) for member in team if isinstance(member, dict)):
-        team_score += 1
-
-    ask_score = 2
-    current_ask = facts.get("current_ask")
-    if current_ask:
-        ask_score += 1
-    if audience_type != "general-partner":
-        ask_score += 1
-    if not any("ask" in _safe_text(gap) or "budget" in _safe_text(gap) for gap in missing):
-        ask_score += 1
-
-    return {
-        "product": min(product_score, 5),
-        "traction": min(traction_score, 5),
-        "market": min(market_score, 5),
-        "business_model": min(business_model_score, 5),
-        "team": min(team_score, 5),
-        "ask": min(ask_score, 5),
-    }
+    return proof_points
 
 
 def build_structured_summary(mock_input: Dict[str, Any]) -> Dict[str, Any]:
     """Build structured summary while separating facts, inferences, and missing data."""
+    traction = mock_input.get("traction", {})
+    studio_profile = mock_input.get("studio_profile", {})
+    game_profile = mock_input.get("game_profile", {})
+    business = mock_input.get("business", {})
+    team = mock_input.get("team", [])
+    assets = mock_input.get("assets", {})
+    source_map = mock_input.get("source_map", {})
+    known_gaps = mock_input.get("known_gaps", [])
 
     facts = {
-        "studio_name": mock_input["studio_profile"]["studio_name"],
-        "game_name": mock_input["game_profile"]["game_name"],
-        "genre": mock_input["game_profile"]["genre"],
-        "platform": mock_input["game_profile"]["platforms"],
-        "development_stage": mock_input["game_profile"]["development_stage"],
-        "traction_signals": mock_input["traction"],
-        "business_model": mock_input["business"]["business_model"],
-        "audience": mock_input["business"]["target_audience"],
-        "USP": mock_input["game_profile"]["core_fantasy"],
-        "team": mock_input["team"],
-        "current_ask": mock_input["business"]["current_ask"],
-        "funding_status": mock_input["business"]["funding_status"],
-        "available_assets": mock_input["assets"],
+        "studio_name": studio_profile.get("studio_name", "Unknown Studio"),
+        "game_name": game_profile.get("game_name", "Unknown Game"),
+        "genre": game_profile.get("genre", "Unknown Genre"),
+        "platform": _safe_list(game_profile.get("platforms", [])),
+        "development_stage": game_profile.get("development_stage", "Unknown Stage"),
+        "traction_signals": traction,
+        "business_model": business.get("business_model", "Unknown business model"),
+        "audience": business.get("target_audience", "Unknown audience"),
+        "USP": game_profile.get("core_fantasy", "No core fantasy provided"),
+        "team": team,
+        "current_ask": business.get("current_ask", "No ask defined"),
+        "funding_status": business.get("funding_status", "Unknown funding status"),
+        "proof_points": _build_proof_points(traction, source_map),
+        "available_assets": assets,
     }
 
     inferences: List[Dict[str, str]] = []
-    if facts["current_ask"]:
+
+    if traction.get("steam_wishlists", 0) >= 10000:
         inferences.append(
             {
-                "statement": "Primary pitch audience can be inferred from the current ask.",
-                "reasoning": "Ask wording indicates target partner type.",
+                "statement": "Las señales iniciales sugieren interés real del mercado antes del lanzamiento.",
+                "reasoning": "El volumen de wishlists es relevante para una fase pre-launch.",
                 "confidence": "medium",
+            }
+        )
+
+    if "publisher" in facts["current_ask"].lower():
+        inferences.append(
+            {
+                "statement": "La narrativa debería enfatizar marketability, lanzamiento y encaje editorial.",
+                "reasoning": "El ask se orienta a publishing y distribución.",
+                "confidence": "high",
+            }
+        )
+
+    if len(known_gaps) > 2:
+        inferences.append(
+            {
+                "statement": "La credibilidad del pitch depende de compensar bien los gaps de información.",
+                "reasoning": "Faltan varios datos críticos para una conversación avanzada con inversores o publishers.",
+                "confidence": "high",
             }
         )
 
     return {
         "facts": facts,
         "inferences": inferences,
-        "missing_critical_info": mock_input["known_gaps"],
-        "source_map": mock_input["source_map"],
+        "missing_critical_info": known_gaps,
+        "source_map": source_map,
     }
 
 
-def recommend_strategy(summary: Dict[str, Any]) -> Dict[str, Any]:
-    """Create a compact strategy recommendation from structured data."""
+def _score_product(facts: Dict[str, Any]) -> Dict[str, Any]:
+    usp = facts.get("USP", "")
+    assets = facts.get("available_assets", {})
+
+    score = 3
+    reason = "La propuesta de producto es comprensible pero todavía genérica."
+
+    if usp and len(str(usp)) > 20:
+        score = 4
+        reason = "La fantasy central del juego está relativamente clara."
+
+    if assets.get("gameplay_video") or assets.get("trailer"):
+        score = min(score + 1, 5)
+        reason += " Además, existen assets visuales para demostrar el producto."
+
+    return {"score": score, "reason": reason}
+
+
+def _score_traction(facts: Dict[str, Any], missing: List[str]) -> Dict[str, Any]:
+    traction = facts.get("traction_signals", {})
+    wishlists = traction.get("steam_wishlists", 0)
+    downloads = traction.get("demo_downloads", 0)
+
+    if wishlists >= 30000 or downloads >= 10000:
+        score = 5
+        reason = "Las señales tempranas de demanda son fuertes."
+    elif wishlists >= 10000 or downloads >= 3000:
+        score = 4
+        reason = "La tracción inicial es prometedora."
+    elif wishlists >= 3000 or downloads >= 1000:
+        score = 3
+        reason = "Hay validación inicial, aunque aún limitada."
+    else:
+        score = 2
+        reason = "La validación cuantitativa todavía es débil o insuficiente."
+
+    if any("retention" in gap.lower() for gap in missing):
+        reason += " La ausencia de métricas de retención reduce confianza."
+
+    return {"score": score, "reason": reason}
+
+
+def _score_market(facts: Dict[str, Any]) -> Dict[str, Any]:
+    genre = str(facts.get("genre", "")).lower()
+    audience = str(facts.get("audience", "")).lower()
+
+    score = 3
+    reason = "El posicionamiento de mercado es aceptable pero aún poco específico."
+
+    if genre and audience:
+        score = 4
+        reason = "Existe una definición razonable de género y audiencia objetivo."
+
+    return {"score": score, "reason": reason}
+
+
+def _score_business_model(facts: Dict[str, Any], missing: List[str]) -> Dict[str, Any]:
+    business_model = str(facts.get("business_model", "")).lower()
+    score = 2
+    reason = "El modelo de negocio todavía es poco claro."
+
+    if business_model and business_model != "unknown business model":
+        score = 3
+        reason = "Existe una base de modelo de negocio definida."
+
+    if not any("budget" in gap.lower() or "fund" in gap.lower() for gap in missing):
+        score += 1
+        reason += " Además, no aparecen grandes lagunas financieras en el input."
+
+    return {"score": min(score, 5), "reason": reason}
+
+
+def _score_team(facts: Dict[str, Any]) -> Dict[str, Any]:
+    team = _safe_list(facts.get("team", []))
+    size = len(team)
+
+    if size >= 6:
+        return {
+            "score": 4,
+            "reason": "El equipo parece suficientemente dimensionado para ejecutar el proyecto.",
+        }
+    if size >= 3:
+        return {
+            "score": 3,
+            "reason": "El equipo tiene una base operativa razonable, aunque aún puede requerir refuerzos.",
+        }
+    return {
+        "score": 2,
+        "reason": "El equipo parece reducido para el alcance potencial del proyecto.",
+    }
+
+
+def _score_ask(facts: Dict[str, Any]) -> Dict[str, Any]:
+    ask = str(facts.get("current_ask", "")).strip()
+
+    if not ask or ask.lower() == "no ask defined":
+        return {
+            "score": 1,
+            "reason": "No hay un ask claro definido.",
+        }
+
+    if len(ask) > 20:
+        return {
+            "score": 4,
+            "reason": "El ask existe y parece lo bastante específico para una conversación inicial.",
+        }
+
+    return {
+        "score": 3,
+        "reason": "El ask está presente, pero puede ser más concreto.",
+    }
+
+
+def score_pitch(summary: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
     facts = summary["facts"]
-    missing: List[str] = summary["missing_critical_info"]
+    missing = summary["missing_critical_info"]
 
-    audience_type = _infer_audience_type(facts.get("current_ask", ""))
-    scores = _score_dimension(summary, audience_type)
+    return {
+        "product": _score_product(facts),
+        "traction": _score_traction(facts, missing),
+        "market": _score_market(facts),
+        "business_model": _score_business_model(facts, missing),
+        "team": _score_team(facts),
+        "ask": _score_ask(facts),
+    }
 
-    weak_dimensions = [k for k, v in scores.items() if v <= 3]
 
-    priority_messages: List[str] = []
-    if scores["product"] >= 4:
-        priority_messages.append("Lead with product hook plus gameplay proof in the first minute.")
-    if scores["traction"] >= 4:
-        priority_messages.append("Use strongest traction signals as external validation before roadmap slides.")
-    if scores["team"] >= 4:
-        priority_messages.append("Frame team credentials as execution de-risking for launch readiness.")
-    if scores["ask"] >= 4:
-        priority_messages.append(f"State a crisp {audience_type}-oriented ask with expected partner contribution.")
-    if not priority_messages:
-        priority_messages.append("Open with the most concrete validated fact, then move quickly to the specific ask.")
+def _build_priority_messages(
+    facts: Dict[str, Any],
+    scores: Dict[str, Dict[str, Any]],
+    audience_type: str,
+) -> List[str]:
+    messages: List[str] = []
 
-    risks_to_compensate: List[str] = []
-    for gap in missing:
-        risks_to_compensate.append(f"Address missing data: {gap}.")
-    for dimension in weak_dimensions:
-        risks_to_compensate.append(f"Strengthen {dimension} evidence to reduce diligence friction.")
+    messages.append(f"El juego ofrece una propuesta central clara: {facts['USP']}.")
+
+    if scores["traction"]["score"] >= 4:
+        messages.append("Las señales tempranas de tracción sugieren interés real antes del lanzamiento.")
+    else:
+        messages.append("La narrativa debe reforzar validación cualitativa mientras madura la tracción.")
+
+    if scores["team"]["score"] >= 4:
+        messages.append("El equipo ayuda a reducir el riesgo de ejecución en producción y go-to-market.")
+    else:
+        messages.append("La credibilidad del equipo debe explicarse mejor para compensar riesgo de ejecución.")
+
+    if audience_type == "publisher-first":
+        messages.append("El caso debe enfatizar marketability, encaje editorial y soporte de lanzamiento.")
+    elif audience_type == "investor-first":
+        messages.append("El caso debe enfatizar escalabilidad, uso de fondos y potencial de retorno.")
+    else:
+        messages.append("El pitch debe equilibrar atractivo editorial con credibilidad de negocio.")
+
+    return messages[:4]
+
+
+def _build_risks_to_compensate(
+    missing: List[str],
+    scores: Dict[str, Dict[str, Any]],
+) -> List[str]:
+    risks: List[str] = []
+
+    if scores["traction"]["score"] <= 3:
+        risks.append("La tracción todavía no demuestra de forma contundente el potencial comercial.")
+
+    if scores["business_model"]["score"] <= 3:
+        risks.append("La lógica de negocio y monetización necesita mayor claridad.")
+
+    if scores["team"]["score"] <= 3:
+        risks.append("La narrativa del equipo puede no ser suficiente para reducir el riesgo de ejecución.")
+
+    for gap in missing[:3]:
+        risks.append(gap)
+
+    return risks[:4]
+
+
+def _recommended_slide_order(audience_type: str, scores: Dict[str, Dict[str, Any]]) -> List[str]:
+    base_order = [
+        "Hook + game fantasy",
+        "Gameplay + video proof",
+        "Traction and validation",
+        "Why now / market opportunity",
+        "Business model + launch plan",
+        "Team credibility",
+        "Clear ask + next step",
+    ]
+
+    if audience_type == "publisher-first":
+        return [
+            "Hook + game fantasy",
+            "Gameplay + video proof",
+            "Traction and validation",
+            "Why now / market opportunity",
+            "Business model + launch plan",
+            "Team credibility",
+            "Clear ask + next step",
+        ]
+
+    if audience_type == "investor-first":
+        return [
+            "Hook + game fantasy",
+            "Traction and validation",
+            "Why now / market opportunity",
+            "Business model + launch plan",
+            "Team credibility",
+            "Clear ask + next step",
+            "Gameplay + video proof",
+        ]
+
+    if scores["traction"]["score"] <= 2:
+        return [
+            "Hook + game fantasy",
+            "Gameplay + video proof",
+            "Why now / market opportunity",
+            "Team credibility",
+            "Business model + launch plan",
+            "Clear ask + next step",
+        ]
+
+    return base_order
+
+
+def recommend_strategy(summary: Dict[str, Any]) -> Dict[str, Any]:
+    facts = summary["facts"]
+    missing = summary["missing_critical_info"]
+
+    audience_type = _infer_audience_type(facts["current_ask"])
+    scores = score_pitch(summary)
+    priority_messages = _build_priority_messages(facts, scores, audience_type)
+    risks_to_compensate = _build_risks_to_compensate(missing, scores)
+    recommended_slide_order = _recommended_slide_order(audience_type, scores)
+
+    if audience_type == "publisher-first":
+        narrative_recommendation = (
+            "Abrir con fantasy y calidad de producto, demostrar marketability con gameplay y tracción, "
+            "y cerrar con un ask claro de publishing/co-marketing."
+        )
+    elif audience_type == "investor-first":
+        narrative_recommendation = (
+            "Abrir con una visión clara del producto, demostrar señales de validación, "
+            "explicar oportunidad de negocio y cerrar con un ask de inversión bien definido."
+        )
+    else:
+        narrative_recommendation = (
+            "Equilibrar claridad de producto, señales de validación, credibilidad del equipo "
+            "y una propuesta de partnership/inversión accionable."
+        )
+
+    key_selling_points = [
+        facts["USP"],
+        *facts.get("proof_points", [])[:2],
+        facts["current_ask"],
+    ]
 
     return {
         "audience_type": audience_type,
         "scores": scores,
-        "narrative_recommendation": (
-            "Use a fact-first sequence: product clarity -> traction proof -> market/business viability -> "
-            "team credibility -> specific ask. Keep each section tied to available evidence only."
-        ),
-        "priority_messages": priority_messages[:4],
-        "risks_to_compensate": risks_to_compensate[:5],
-        "recommended_slide_order": [
-            "Hook + product clarity",
-            "Gameplay proof",
-            "Traction validation",
-            "Market + business model",
-            "Team credibility",
-            "Specific ask + partner fit",
-        ],
+        "narrative_recommendation": narrative_recommendation,
+        "priority_messages": priority_messages,
+        "risks_to_compensate": risks_to_compensate,
+        "recommended_slide_order": recommended_slide_order,
+        "key_selling_points": key_selling_points,
         "open_questions": missing,
     }
