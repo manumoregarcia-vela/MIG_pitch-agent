@@ -1,64 +1,35 @@
 from __future__ import annotations
 
+import argparse
 import json
 from pathlib import Path
 
-from agents import RefinementLoopOrchestrator
-
-
-OUTPUT_DIR = Path("outputs")
-
-
-MOCK_SUMMARY = {
-    "studio_name": "Nebula Forge",
-    "game_name": "Shardfall",
-    "genre": "Action RPG",
-    "platform": ["PC", "Console"],
-    "development_stage": "Vertical slice",
-    "traction_signals": ["15k wishlists", "Playable demo"],
-    "current_ask": "Publisher partnership + 1.2M€ co-funding",
-}
-
-
-def write_version_outputs(version_name: str, version_payload: dict) -> None:
-    version_dir = OUTPUT_DIR / version_name
-    version_dir.mkdir(parents=True, exist_ok=True)
-
-    (version_dir / "pitch_strategy.json").write_text(
-        json.dumps(version_payload["pitch_strategy"], indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
-    (version_dir / "slides_outline.json").write_text(
-        json.dumps(version_payload["slides_outline"], indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
-    (version_dir / "draft_deck.md").write_text(
-        version_payload["draft_deck"]["markdown"],
-        encoding="utf-8",
-    )
-    (version_dir / "qa_report.json").write_text(
-        json.dumps(version_payload["qa_report"], indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
+from agents import generate_pitch_strategy
 
 
 def main() -> None:
-    orchestrator = RefinementLoopOrchestrator()
-    run_output = orchestrator.run(MOCK_SUMMARY)
+    parser = argparse.ArgumentParser(description="Generate Demo Day-oriented pitch_strategy.md")
+    parser.add_argument("--input", type=Path, default=Path("examples/studio_input.json"))
+    parser.add_argument("--output", type=Path, default=Path("pitch_strategy.md"))
+    parser.add_argument("--audience", type=str, default="mixed", choices=["mixed", "publisher-first", "investor-first"])
+    args = parser.parse_args()
 
-    OUTPUT_DIR.mkdir(exist_ok=True)
-    write_version_outputs("initial_version", run_output["initial_version"])
+    studio_data = json.loads(args.input.read_text(encoding="utf-8"))
+    strategy, md = generate_pitch_strategy(studio_data, audience=args.audience)
 
-    if run_output["improved_version"] is not None:
-        write_version_outputs("improved_version", run_output["improved_version"])
+    args.output.write_text(md, encoding="utf-8")
 
-    (OUTPUT_DIR / "run_result.json").write_text(
-        json.dumps(run_output, indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
+    strategy_json_path = args.output.with_suffix(".json")
+    strategy_json_path.write_text(json.dumps(strategy, indent=2, ensure_ascii=False), encoding="utf-8")
 
-    print("Generated initial_version and improved_version outputs in ./outputs")
+    print(f"Generated: {args.output}")
+    print(f"Generated: {strategy_json_path}")
 
 
 if __name__ == "__main__":
     main()
+from pipeline.run_pipeline import run
+
+
+if __name__ == "__main__":
+    run()

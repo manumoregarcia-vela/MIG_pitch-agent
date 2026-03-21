@@ -1,0 +1,27 @@
+{
+  "studio_name": "Night Byte Studio",
+  "game_name": "Echo Rift",
+  "genre": "Action Roguelite",
+  "platform": ["PC", "Console"],
+  "development_stage": "Vertical slice completed",
+  "gameplay_video": "https://example.com/gameplay.mp4",
+  "USP": "Co-op timeline shifting combat with procedural boss behavior",
+  "traction_signals": [
+    "35,000 Steam wishlists",
+    "Demo with 32% D1 retention across 3,200 players",
+    "420k trailer views with 6.8% CTR to Steam page"
+  ],
+  "market": "Premium action roguelite with strong creator fit and replay-driven engagement",
+  "business_model": "Premium launch + DLC roadmap + cosmetic collab drops",
+  "team": [
+    "CEO - ex AAA producer",
+    "Creative Director - shipped 2 indie hits",
+    "Technical Lead - multiplayer specialist",
+    "Marketing Lead - former publisher UA strategist"
+  ],
+  "current_ask": "Seeking €1.2M publishing deal to fund content completion, UA test, and launch ops.",
+  "proof_points": [
+    "Official showcase selection",
+    "Top 10 upcoming roguelites list in major media"
+  ]
+}
