@@ -1,1 +1,68 @@
-
+{
+  "refinement_loop_output": {
+    "type": "object",
+    "required": ["initial_version", "improved_version"],
+    "properties": {
+      "initial_version": {
+        "$ref": "#/definitions/pitch_version"
+      },
+      "improved_version": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/pitch_version"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "pitch_version": {
+      "type": "object",
+      "required": ["pitch_strategy", "slides_outline", "draft_deck", "qa_report"],
+      "properties": {
+        "pitch_strategy": {
+          "type": "object"
+        },
+        "slides_outline": {
+          "type": "object"
+        },
+        "draft_deck": {
+          "type": "object",
+          "required": ["markdown"],
+          "properties": {
+            "markdown": {
+              "type": "string"
+            }
+          }
+        },
+        "qa_report": {
+          "type": "object",
+          "required": ["status", "weaknesses"],
+          "properties": {
+            "status": {
+              "type": "string"
+            },
+            "weaknesses": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["issue", "suggested_fix"],
+                "properties": {
+                  "issue": {
+                    "type": "string"
+                  },
+                  "suggested_fix": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
