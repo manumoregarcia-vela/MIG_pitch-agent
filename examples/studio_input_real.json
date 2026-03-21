@@ -2,7 +2,9 @@
   "studio_profile": {
     "studio_name": "Red Mountain",
     "country": "España",
-    "description": ""
+    "description": "Deckbuilding of Slay the Spire meets the combat of Xcom. AlcheMice is a video game that combines the roguelike and deckbuilder genres into a unique experience of strategy and new gameplay mechanics􁨊
+Set in 16th-century Granada, players will embody Tycoh, an alchemist mouse on a mission to 􁧨nd the legendary Al-Jabeer's alchemy notebook􁨊 This notebook is crucial for crafting the philosopher's stone, the only hope to save his family from a
+terrible fever􁨊"
   },
   "game_profile": {
     "game_name": "Alchimice",
@@ -12,16 +14,16 @@
     "core_fantasy": ""
   },
   "traction": {
-    "steam_wishlists": 0,
-    "demo_downloads": 0,
-    "trailer_views": 0,
-    "community_size": 0
+    "steam_wishlists": 2000,
+    "demo_downloads": 100,
+    "trailer_views": 500,
+    "community_size": 3000
   },
   "business": {
-    "business_model": "",
+    "business_model": "venta directa en plataforma como steam",
     "target_audience": "",
-    "current_ask": "",
-    "funding_status": ""
+    "current_ask": "175.000 euros",
+    "funding_status": "50% financiado"
   },
   "team": [],
   "assets": {},
