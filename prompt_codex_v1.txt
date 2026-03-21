@@ -1,1 +1,260 @@
+Quiero que actúes como un arquitecto de producto + ingeniería y me ayudes a construir un agente de IA orientado a estudios de desarrollo de videojuegos.
 
+OBJETIVO DEL AGENTE
+Crear un sistema de agentes que, partiendo de información de un estudio de desarrollo de videojuegos, sea capaz de generar una presentación de pitch en formato PPT/PPTX, muy ejecutiva y orientada a convencer a publishers e inversores en el Investor / Demo Day de Madrid In Game.
+
+CONTEXTO DE NEGOCIO
+El pitch está pensado para presentarse en el evento Investor / Demo Day de Madrid In Game del 29 de abril.
+La finalidad no es hacer una presentación corporativa genérica, sino maximizar el interés de:
+- publishers
+- inversores
+- potenciales partners estratégicos
+
+REQUISITOS DEL PITCH FINAL
+- Formato preferido: PPTX
+- Número de slides: entre 5 y 8 máximo
+- Estilo: visual, directo, muy ejecutivo, muy claro
+- Debe incluir necesariamente:
+  1. vídeo del producto / gameplay del videojuego
+  2. métricas / caso de éxito / señales de tracción
+  3. qué está buscando el estudio
+  4. equipo
+
+TIPO DE INPUTS QUE DEBE PODER PROCESAR EL SISTEMA
+El agente debe estar preparado para ingerir y combinar información procedente de:
+- pitch deck del estudio (PDF, PPT, DOCX)
+- one pagers
+- web oficial del estudio
+- Steam page / Epic / stores
+- press kit
+- notas de prensa
+- redes sociales del estudio y de sus founders (X, LinkedIn, YouTube, TikTok, Discord si aplica)
+- entrevistas o artículos públicos
+- métricas manuales aportadas por el usuario
+- vídeos o trailers del juego
+- capturas de pantalla / key art / logos
+- cualquier documento adicional del estudio
+
+CONDICIÓN CRÍTICA
+El sistema NO debe inventar información.
+Debe:
+- separar claramente hechos verificados vs inferencias
+- marcar qué datos están confirmados y cuáles faltan
+- detectar inconsistencias entre fuentes
+- proponer placeholders o requests de datos cuando algo clave no exista
+
+QUÉ QUIERO QUE CONSTRUYAS
+Quiero que diseñes y empieces a implementar una V1 funcional del sistema, con arquitectura modular y preparada para evolucionar después.
+
+PIENSA EL SISTEMA COMO UN CONJUNTO DE AGENTES O MÓDULOS ESPECIALIZADOS
+
+PROPUESTA DE AGENTES / MÓDULOS ESPERADOS
+1. Ingestion Agent
+   - recibe documentos, enlaces y assets
+   - extrae texto, metadatos, imágenes y referencias a vídeo
+   - normaliza todo a un esquema interno común
+
+2. Research Agent
+   - analiza fuentes públicas adicionales
+   - enriquece la información del estudio
+   - identifica señales de tracción, posicionamiento, comparables y credenciales
+
+3. Validation Agent
+   - verifica consistencia de claims y métricas
+   - etiqueta cada dato con nivel de confianza
+   - genera listado de gaps de información crítica
+
+4. Pitch Strategist Agent
+   - decide el ángulo narrativo óptimo para publishers e inversores
+   - prioriza el contenido que maximiza interés
+   - propone storyline de 5-8 slides
+   - adapta el mensaje según tipo de audiencia:
+     - publisher-first
+     - investor-first
+     - mixed audience
+
+5. Slide Writer Agent
+   - redacta el contenido de cada slide
+   - genera titulares potentes, bullets breves y mensajes de apoyo
+   - evita relleno, buzzwords y texto excesivo
+
+6. Deck Designer / PPT Builder Agent
+   - genera la presentación en PPTX
+   - inserta textos, estructura, imágenes, screenshots y referencias al vídeo
+   - prepara una versión visualmente limpia y profesional
+   - deja notas cuando falten assets finales
+
+7. QA Agent
+   - valida que el deck cumpla:
+     - máximo 8 slides
+     - presencia de gameplay/video
+     - métricas/caso éxito
+     - ask claro
+     - equipo
+   - revisa claridad, consistencia y orientación a negocio
+   - detecta slides demasiado densas o débiles
+
+OUTPUTS QUE DEBE PRODUCIR EL SISTEMA
+Como mínimo, la V1 debe generar:
+
+A. Un archivo structured_summary.json con:
+- studio_name
+- game_name
+- genre
+- platform
+- development_stage
+- traction_signals
+- business_model
+- audience
+- USP
+- team
+- current ask
+- funding/status if available
+- proof points
+- available assets
+- missing critical info
+- source map / provenance
+
+B. Un archivo pitch_strategy.md con:
+- recomendación de narrativa
+- tipo de audiencia principal
+- mensajes prioritarios
+- riesgos o debilidades a compensar
+- orden recomendado de slides
+
+C. Un archivo slides_outline.json con:
+- slide_number
+- slide_title
+- slide_objective
+- key_message
+- content_blocks
+- suggested_visuals
+- source_reference
+- confidence_level
+
+D. Un archivo draft_deck.md con el contenido completo del pitch
+
+E. Un archivo PPTX inicial generado automáticamente
+
+F. Un archivo qa_report.md con:
+- checklist de cumplimiento
+- huecos de información
+- claims dudosos
+- recomendaciones finales para mejorar el deck antes de presentarlo
+
+REGLAS DE CALIDAD DEL PITCH
+El sistema debe optimizar para estas prioridades:
+1. claridad inmediata
+2. credibilidad
+3. tracción
+4. diferenciación
+5. atractivo para publisher/inversor
+6. capacidad de contar la historia en pocos minutos
+
+El deck NO debe parecer:
+- académico
+- excesivamente corporativo
+- muy largo
+- lleno de texto
+- ambiguo sobre qué busca el estudio
+
+ESTRUCTURA RECOMENDADA DEL DECK
+Propón una estructura base de 5-8 slides, por ejemplo:
+1. Cover + juego + hook
+2. Producto / gameplay / fantasy
+3. Tracción / métricas / validación
+4. Oportunidad / por qué ahora / mercado o posicionamiento
+5. Modelo / plan / qué hace atractivo el negocio
+6. Equipo
+7. Ask / qué buscamos / next step
+8. backup slide opcional
+
+Pero quiero que la estructura final la decida el sistema en función del material disponible y del tipo de estudio.
+
+IMPORTANTE SOBRE PUBLISHERS VS INVERSORES
+El sistema debe ser capaz de distinguir:
+- qué interesa más a publishers:
+  - calidad del juego
+  - marketability
+  - encaje con portfolio
+  - KPIs de wishlists, demo, retention o comunidad
+  - capacidad de ejecución del equipo
+- qué interesa más a inversores:
+  - potencial de escala
+  - eficiencia del capital
+  - roadmap
+  - equipo fundador
+  - señal de PMF o de validación
+  - monetización / pipeline / upside
+
+Si la audiencia es mixta, debe equilibrar ambos enfoques.
+
+ALCANCE TÉCNICO DE LA V1
+Quiero que propongas e implementes una V1 realista, no una arquitectura infinita.
+Prioriza:
+- Python para pipeline y orquestación
+- estructura de proyecto clara
+- prompts desacoplados en archivos
+- posibilidad de usar modelos LLM por API
+- posibilidad de añadir scraping y parsing documental
+- generación de PPTX con librería adecuada
+- outputs reproducibles y trazables
+
+ENTREGABLES DE INGENIERÍA QUE QUIERO DE TI
+1. Diseña la arquitectura del proyecto
+2. Propón la estructura de carpetas
+3. Define los esquemas de datos
+4. Implementa un primer pipeline end-to-end
+5. Crea prompts base para cada agente
+6. Crea ejemplos de input/output
+7. Genera una primera versión del generador de PPTX
+8. Añade README con instrucciones de uso
+9. Añade TODOs claros para la V2
+
+ESTRUCTURA DE REPOSITORIO ESPERADA
+Propón algo de este estilo o mejor:
+- /app
+- /agents
+- /prompts
+- /schemas
+- /ingestion
+- /research
+- /validation
+- /deck_builder
+- /outputs
+- /tests
+- /examples
+- README.md
+
+COMPORTAMIENTO ESPERADO
+Quiero que trabajes en este orden:
+1. define la arquitectura
+2. define los schemas
+3. crea prompts de cada agente
+4. implementa pipeline mínimo funcional
+5. implementa generador PPTX
+6. crea ejemplo ejecutable con datos mock
+7. documenta todo
+
+IMPORTANTE
+- No te quedes en explicaciones abstractas
+- Quiero código real y estructura real
+- Si alguna parte no puede completarse del todo, deja stubs funcionales y TODOs bien definidos
+- Prioriza una base mantenible antes que una demo frágil
+- Supón que después ampliaremos este sistema para usarlo con distintos estudios y distintos eventos
+
+CRITERIOS DE ACEPTACIÓN
+Consideraré que la tarea está bien resuelta si entregas:
+- arquitectura clara
+- código inicial organizado
+- pipeline funcional
+- salida estructurada
+- borrador de deck
+- generación PPTX básica
+- documentación suficiente para iterar
+
+Empieza ahora por:
+1. resumir la arquitectura propuesta
+2. crear la estructura de carpetas
+3. generar los archivos iniciales clave
+4. implementar la V1 del pipeline
