@@ -1,0 +1,4429 @@
+444 0 obj
+Linearized 1
+L 5857738
+T 5848730
+0000000017 00000 n
+0000000611 00000 n
+0000001043 00000 n
+0000001300 00000 n
+0000001415 00000 n
+0000281476 00000 n
+0000000670 00000 n
+Prev 5848718
+Info 443 0 R
+Root 445 0 R
+68b68fa53e236048209c0ce7ce296688
+68b68fa53e236048209c0ce7ce296688
+startxref
+445 0 obj
+Type /Catalog
+Pages 440 0 R
+450 0 obj
+Filter /FlateDecode
+Length 282
+446 0 obj
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X0 448 0 R
+Contents 447 0 R
+0 0 1920 1080
+LastModified (D:20251030210448
+Parent 441 0 R
+447 0 obj
+Filter /FlateDecode
+Length 33
+448 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20PRESENTACION.jpg
+Intent /Perceptual
+SMask 449 0 R
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 279718
+QwVrO2 iQ
+P5- 6Uq-R
+449 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+DecodeParms
+BitsPerComponent 8 /Colors 1 /Columns 1920 /Predictor 2
+Filter /FlateDecode
+Height 1080
+Length 4173
+Subtype /Image
+Type /XObject
+Width 1920
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X1 2 0 R /X2 425 0 R /X3 424 0 R /X4 426 0 R /X5
+3 0 R /X6 4 0 R
+F2 5 0 R /F1 6 0 R
+Contents 8 0 R
+0 0 1920 1080
+LastModified (D:20251030210455
+Parent 441 0 R
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20SHORT14
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 327876
+zCkG2Ri p
+Ic;YOcUFVw.
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 579
+BitsPerComponent 1
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+Filter /JBIG2Decode
+Length 184
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 430 0 R
+Type /Font
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 7 0 R
+Type /Font
+Filter /FlateDecode
+Length 374
+Filter /FlateDecode
+Length 1105
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X7 10 0 R /X8 424 0 R /X9 425 0 R /X10 426 0 R
+X11 11 0 R /X12 12 0 R
+F2 13 0 R /F1 14 0 R
+Contents 16 0 R
+0 0 1920 1080
+LastModified (D:20251030210506
+Parent 441 0 R
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20SHORT15
+20HERMETICA.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 332228
+dUDH(d6DX
+r.mOBL_.N
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 723
+BitsPerComponent 1
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+Filter /CCITTFaxDecode
+DecodeParms
+K -1 /Columns 1920
+Length 146
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 430 0 R
+Type /Font
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 15 0 R
+Type /Font
+Filter /FlateDecode
+Length 351
+Filter /FlateDecode
+Length 1006
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X13 18 0 R /X14 19 0 R /X15 20 0 R /X16 21 0 R
+X17 22 0 R /X18 23 0 R
+F2 24 0 R /F1 26 0 R
+Contents 28 0 R
+0 0 1920 1080
+LastModified (D:20251030210513
+Parent 441 0 R
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20ALCHEMICE.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 188594
+OHLMBLDDLOIEF
+BitsPerComponent 1
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+Filter /JBIG2Decode
+Length 181
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 11388
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 5520
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 25 0 R
+Type /Font
+Filter /FlateDecode
+Length 261
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 27 0 R
+Type /Font
+Filter /FlateDecode
+Length 400
+Filter /FlateDecode
+Length 1220
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X19 30 0 R /X20 31 0 R /X21 32 0 R /X22 33 0 R
+X23 34 0 R /X24 35 0 R /X25 36 0 R /X26 37 0 R /X27 38 0 R /X28 39 0 R /X29
+40 0 R /X30 41 0 R /X31 42 0 R /X32 43 0 R /X33 44 0 R /X34 45 0 R /X35
+46 0 R /X36 47 0 R /X37 48 0 R /X38 49 0 R /X39 50 0 R
+51 0 R /F1 53 0 R
+Contents 55 0 R
+0 0 1920 1080
+LastModified (D:20251030210521
+Parent 441 0 R
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20GAMEPLAY.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 210658
+EhHqcypxr
+RVukcEPjz)1
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 3007
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 837
+Filter /FlateDecode
+Length 63
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 837
+Filter /FlateDecode
+Length 60
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 837
+Filter /FlateDecode
+Length 63
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 837
+Filter /FlateDecode
+Length 60
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 930
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1533
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 876
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 4084
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 916
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 772
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2475
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1018
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2729
+6xhsjl6b1
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 3657
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 52 0 R
+Type /Font
+Filter /FlateDecode
+Length 343
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 54 0 R
+Type /Font
+Filter /FlateDecode
+Length 346
+Filter /FlateDecode
+Length 1410
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X40 57 0 R /X41 434 0 R /X42 58 0 R /X43 59 0 R
+X44 60 0 R /X45 61 0 R /X46 62 0 R /X47 63 0 R /X48 64 0 R
+65 0 R /F1 67 0 R /F2 69 0 R
+Contents 71 0 R
+0 0 1920 1080
+LastModified (D:20251030210527
+Parent 441 0 R
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20CARDS.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 171213
+3qSGIqIZE/
+BitsPerComponent 1
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+Filter /JBIG2Decode
+Length 182
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 5674
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1910
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1922
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 66 0 R
+Type /Font
+Filter /FlateDecode
+Length 296
+BaseFont /AQEAQO
+Amiri-Bold
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 68 0 R
+Type /Font
+Filter /FlateDecode
+Length 315
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 70 0 R
+Type /Font
+Filter /FlateDecode
+Length 374
+Filter /FlateDecode
+Length 1168
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X49 73 0 R /X50 434 0 R
+F1 74 0 R
+Contents 76 0 R
+0 0 1920 1080
+LastModified (D:20251030210533
+Parent 441 0 R
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 295224
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 75 0 R
+Type /Font
+Filter /FlateDecode
+Length 253
+Filter /FlateDecode
+Length 135
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X51 79 0 R
+Contents 78 0 R
+0 0 1920 1080
+LastModified (D:20251030210539
+Parent 441 0 R
+Filter /FlateDecode
+Length 34
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+Intent /Perceptual
+SMask 449 0 R
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 112549
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X52 82 0 R
+Contents 81 0 R
+0 0 1920 1080
+LastModified (D:20251030210545
+Parent 441 0 R
+Filter /FlateDecode
+Length 34
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20copia.jpg
+Intent /Perceptual
+SMask 449 0 R
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 112549
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X53 84 0 R /X54 85 0 R /X55 86 0 R
+F2 87 0 R /F1 89 0 R
+Contents 91 0 R
+0 0 1920 1080
+LastModified (D:20251030210552
+Parent 441 0 R
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20GAME.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 360631
+A4FRURbXv
+FJonUK8/f.T
+Z7KCER0vl
+IrOuzsk0B
+eshHhnb;O
+XLeTYsbQq
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 3141
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2431
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 88 0 R
+Type /Font
+Filter /FlateDecode
+Length 267
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 90 0 R
+Type /Font
+Filter /FlateDecode
+Length 343
+Filter /FlateDecode
+Length 544
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X56 93 0 R /X57 94 0 R
+F1 95 0 R
+Contents 97 0 R
+0 0 1920 1080
+LastModified (D:20251030210600
+Parent 441 0 R
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 57981
+NJ756BRJf
+BBFHxO-qrq
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1418
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 96 0 R
+Type /Font
+Filter /FlateDecode
+Length 293
+Filter /FlateDecode
+Length 203
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X58 99 0 R /X59 100 0 R /X60 101 0 R /X61 102 0 R
+X62 103 0 R /X63 104 0 R /X64 105 0 R /X65 106 0 R /X66 107 0 R /X67
+108 0 R /X68 109 0 R /X69 110 0 R /X70 111 0 R /X71 112 0 R /X72 113 0 R
+X73 114 0 R /X74 115 0 R /X75 116 0 R /X76 117 0 R /X77 118 0 R /X78
+119 0 R /X79 120 0 R /X80 121 0 R /X81 122 0 R /X82 123 0 R /X83 124 0 R
+X84 125 0 R /X85 126 0 R /X86 127 0 R /X87 128 0 R /X88 129 0 R /X89
+130 0 R /X90 131 0 R /X91 132 0 R /X92 133 0 R /X93 134 0 R /X94 135 0 R
+X95 136 0 R /X96 137 0 R /X97 138 0 R /X98 139 0 R /X99 140 0 R /X100
+141 0 R /X101 142 0 R /X102 143 0 R /X103 144 0 R /X104 145 0 R /X105
+146 0 R /X106 147 0 R /X107 148 0 R /X108 149 0 R /X109 150 0 R /X110
+151 0 R /X111 152 0 R /X112 153 0 R /X113 154 0 R /X114 155 0 R /X115
+156 0 R /X116 157 0 R /X117 158 0 R /X118 159 0 R /X119 160 0 R /X120
+161 0 R /X121 162 0 R /X122 163 0 R /X123 164 0 R /X124 165 0 R /X125
+166 0 R /X126 167 0 R /X127 168 0 R /X128 169 0 R /X129 170 0 R
+F3 171 0 R /F2 173 0 R /F1 175 0 R
+Contents 177 0 R
+0 0 1920 1080
+LastModified (D:20251030210612
+Parent 441 0 R
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20MARKET.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 165670
+100 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 3979
+101 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 485
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 441
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 842
+102 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+103 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+104 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+105 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+106 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 496
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 649
+107 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+108 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+109 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+110 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+111 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+112 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 252
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 455
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 4512
+113 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+114 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 252
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 364
+Filter /FlateDecode
+Length 296
+115 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 252
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 268
+Filter /FlateDecode
+Length 225
+116 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 200
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 176
+Filter /FlateDecode
+Length 131
+117 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 88
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Filter /FlateDecode
+Length 49
+118 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 252
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Filter /FlateDecode
+Length 231
+119 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 250
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 452
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 746
+120 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 250
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Filter /FlateDecode
+Length 188
+121 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+122 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+123 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+124 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+125 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+126 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 23
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Filter /FlateDecode
+Length 88
+127 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 901
+128 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 889
+129 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 793
+130 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1191
+131 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 876
+132 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 756
+133 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+134 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+135 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+136 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+137 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+138 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+139 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+140 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+141 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+142 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+143 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+144 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+145 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 22
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Filter /FlateDecode
+Length 82
+146 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+147 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 22
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Filter /FlateDecode
+Length 81
+148 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+149 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 22
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Filter /FlateDecode
+Length 64
+150 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+151 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+152 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+153 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 22
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Filter /FlateDecode
+Length 74
+154 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+155 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 22
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Filter /FlateDecode
+Length 30
+156 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+157 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 22
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Filter /FlateDecode
+Length 83
+158 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+159 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 22
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Filter /FlateDecode
+Length 32
+160 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1151
+161 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 722
+162 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 685
+163 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+164 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 39
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 107
+Filter /FlateDecode
+Length 86
+165 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+166 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 39
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 107
+Filter /FlateDecode
+Length 81
+167 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 3750
+168 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1710
+169 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+170 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+171 0 obj
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 172 0 R
+Type /Font
+172 0 obj
+Filter /FlateDecode
+Length 285
+173 0 obj
+BaseFont /AQEAQO
+Amiri-Bold
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 174 0 R
+Type /Font
+174 0 obj
+Filter /FlateDecode
+Length 367
+175 0 obj
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 176 0 R
+Type /Font
+176 0 obj
+Filter /FlateDecode
+Length 380
+177 0 obj
+Filter /FlateDecode
+Length 6902
+178 0 obj
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X130 179 0 R /X131 180 0 R
+Contents 183 0 R
+0 0 1920 1080
+LastModified (D:20251030210617
+Parent 441 0 R
+179 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20POSITIONING.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 233413
+ff;lT,Oubg
+1Ksfpz/g.-
+HO7pMqKRP
+180 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2615
+181 0 obj
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 182 0 R
+Type /Font
+182 0 obj
+Filter /FlateDecode
+Length 265
+183 0 obj
+Filter /FlateDecode
+Length 148
+184 0 obj
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X132 185 0 R /X133 186 0 R /X134 187 0 R /X135
+188 0 R /X136 189 0 R /X137 190 0 R /X138 191 0 R /X139 192 0 R /X140
+193 0 R /X141 194 0 R
+F1 195 0 R /F2 197 0 R
+Contents 199 0 R
+0 0 1920 1080
+LastModified (D:20251030210625
+Parent 441 0 R
+185 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20BUSINESS
+20MODEL.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 255853
+e/rNTgKS_
+186 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 4235
+187 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 6334
+188 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 8238
+189 0 obj
+BitsPerComponent 1
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+Filter /JBIG2Decode
+Length 172
+190 0 obj
+BitsPerComponent 1
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+Filter /JBIG2Decode
+Length 173
+191 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 3815
+192 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 4588
+BNJJFJBNFFFAANI
+193 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 4335
+194 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 5106
+195 0 obj
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 196 0 R
+Type /Font
+196 0 obj
+Filter /FlateDecode
+Length 310
+197 0 obj
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 198 0 R
+Type /Font
+198 0 obj
+Filter /FlateDecode
+Length 375
+199 0 obj
+Filter /FlateDecode
+Length 807
+200 0 obj
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X142 201 0 R /X143 202 0 R /X144 203 0 R /X145
+204 0 R /X146 205 0 R /X147 206 0 R /X148 207 0 R /X149 208 0 R /X150
+209 0 R /X151 210 0 R /X152 211 0 R /X153 212 0 R /X154 213 0 R /X155
+214 0 R /X156 215 0 R /X157 216 0 R /X158 217 0 R /X159 218 0 R /X160
+219 0 R /X161 220 0 R /X162 221 0 R /X163 222 0 R /X164 223 0 R /X165
+224 0 R /X166 225 0 R /X167 226 0 R /X168 227 0 R /X169 228 0 R /X170
+229 0 R /X171 230 0 R /X172 231 0 R /X173 232 0 R /X174 233 0 R /X175
+234 0 R /X176 235 0 R /X177 236 0 R /X178 237 0 R /X179 238 0 R /X180
+239 0 R /X181 240 0 R /X182 241 0 R /X183 242 0 R /X184 243 0 R /X185
+244 0 R /X186 245 0 R
+F2 246 0 R /F1 248 0 R
+Contents 250 0 R
+0 0 1920 1080
+LastModified (D:20251030210633
+Parent 441 0 R
+201 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20ROADMAP.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 166146
+202 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 786
+203 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 889
+204 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 841
+205 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 794
+206 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+207 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+208 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+209 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+210 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2971
+211 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1520
+212 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1368
+213 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1509
+214 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1451
+215 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1166
+216 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1085
+217 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1045
+218 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 928
+219 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1006
+220 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1074
+221 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1069
+222 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 386
+Filter /FlateDecode
+Length 254
+223 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 388
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 750
+224 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 727
+Filter /FlateDecode
+Length 400
+225 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 731
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 942
+226 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+227 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+228 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+229 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+230 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 107
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Filter /FlateDecode
+Length 55
+231 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 107
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Filter /FlateDecode
+Length 84
+232 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+233 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 107
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Filter /FlateDecode
+Length 18
+234 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+235 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+236 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+237 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+238 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+239 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+240 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+241 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+242 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+243 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+244 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+245 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+246 0 obj
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 247 0 R
+Type /Font
+247 0 obj
+Filter /FlateDecode
+Length 309
+248 0 obj
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 249 0 R
+Type /Font
+249 0 obj
+Filter /FlateDecode
+Length 372
+250 0 obj
+Filter /FlateDecode
+Length 2281
+251 0 obj
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X187 252 0 R /X188 253 0 R /X189 254 0 R /X190
+255 0 R /X191 256 0 R /X192 257 0 R /X193 258 0 R /X194 259 0 R /X195
+260 0 R /X196 261 0 R /X197 262 0 R /X198 263 0 R /X199 264 0 R /X200
+265 0 R /X201 266 0 R /X202 267 0 R /X203 268 0 R /X204 269 0 R /X205
+270 0 R /X206 271 0 R /X207 272 0 R /X208 273 0 R /X209 274 0 R /X210
+275 0 R /X211 276 0 R /X212 277 0 R /X213 278 0 R /X214 279 0 R /X215
+280 0 R /X216 281 0 R /X217 282 0 R /X218 283 0 R /X219 284 0 R /X220
+285 0 R /X221 286 0 R /X222 287 0 R
+F2 288 0 R /F1 290 0 R
+Contents 292 0 R
+0 0 1920 1080
+LastModified (D:20251030210642
+Parent 441 0 R
+252 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20SHORT10
+20PROPOSAL.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 159907
+Otof_QIaM
+253 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2850
+254 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1064
+255 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 53
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 626
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 7266
+256 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1178
+257 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 44
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 193
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2384
+258 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1096
+259 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+260 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1042
+261 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+262 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1070
+263 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 711
+264 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+265 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1007
+266 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 830
+267 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+268 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 932
+269 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 851
+270 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+271 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 952
+272 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 838
+273 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+274 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1070
+275 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 933
+276 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+277 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1169
+278 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+279 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 751
+280 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 827
+281 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+282 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1072
+283 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2062
+284 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+285 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 767
+286 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1038
+287 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+288 0 obj
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 289 0 R
+Type /Font
+289 0 obj
+Filter /FlateDecode
+Length 375
+290 0 obj
+BaseFont /AQEAQO
+Amiri-Bold
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 291 0 R
+Type /Font
+291 0 obj
+Filter /FlateDecode
+Length 394
+292 0 obj
+Filter /FlateDecode
+Length 16869
+293 0 obj
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X223 294 0 R /X224 295 0 R /X225 296 0 R /X226
+297 0 R /X227 298 0 R /X228 299 0 R /X229 300 0 R /X230 301 0 R
+F1 302 0 R /F2 304 0 R
+Contents 306 0 R
+0 0 1920 1080
+LastModified (D:20251030210649
+Parent 441 0 R
+294 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20SHORT11
+20REQUEST.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 248394
+295 0 obj
+BitsPerComponent 1
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+Filter /CCITTFaxDecode
+DecodeParms
+K -1 /Columns 1920
+Length 183
+296 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2183
+297 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+298 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+299 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+300 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+301 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2582
+302 0 obj
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 303 0 R
+Type /Font
+303 0 obj
+Filter /FlateDecode
+Length 315
+304 0 obj
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 305 0 R
+Type /Font
+305 0 obj
+Filter /FlateDecode
+Length 328
+306 0 obj
+Filter /FlateDecode
+Length 610
+307 0 obj
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X231 308 0 R /X232 309 0 R /X233 310 0 R /X234
+311 0 R /X235 312 0 R /X236 313 0 R /X237 314 0 R /X238 315 0 R /X239
+316 0 R /X240 317 0 R /X241 318 0 R /X242 319 0 R /X243 320 0 R
+F1 321 0 R /F2 323 0 R
+Contents 325 0 R
+0 0 1920 1080
+LastModified (D:20251030210657
+Parent 441 0 R
+308 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20SHORT12
+20ACHIEVES.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 256529
+PacM,dd,Xk
+309 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 3426
+310 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 128
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 388
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 6319
+311 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2630
+312 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 3781
+313 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 131
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 570
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 7638
+314 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1179
+315 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 55
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 397
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 4917
+316 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1292
+317 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+318 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+319 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+320 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2377
+321 0 obj
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 322 0 R
+Type /Font
+322 0 obj
+Filter /FlateDecode
+Length 311
+323 0 obj
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 324 0 R
+Type /Font
+324 0 obj
+Filter /FlateDecode
+Length 373
+325 0 obj
+Filter /FlateDecode
+Length 26968
+Lxi7U1QOkj
+326 0 obj
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X244 327 0 R /X245 328 0 R /X246 329 0 R /X247
+330 0 R /X248 331 0 R /X249 332 0 R /X250 333 0 R /X251 334 0 R /X252
+335 0 R /X253 336 0 R /X254 337 0 R /X255 338 0 R /X256 339 0 R
+F1 340 0 R /F2 342 0 R
+Contents 344 0 R
+0 0 1920 1080
+LastModified (D:20251030210706
+Parent 441 0 R
+327 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20SHORT13
+20PUBLISHED.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 239395
+5EnqxMgv_
+wnkr:nmfl
+4,mSsg-_DX
+328 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 955
+329 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2656
+330 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1020
+331 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+332 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+333 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+334 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+335 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+336 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+337 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+338 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+339 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 4081
+340 0 obj
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 341 0 R
+Type /Font
+341 0 obj
+Filter /FlateDecode
+Length 329
+342 0 obj
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 343 0 R
+Type /Font
+343 0 obj
+Filter /FlateDecode
+Length 355
+344 0 obj
+Filter /FlateDecode
+Length 1009
+345 0 obj
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X257 346 0 R /X258 347 0 R /X259 348 0 R /X260
+349 0 R /X261 350 0 R /X262 351 0 R /X263 352 0 R /X264 353 0 R /X265
+354 0 R /X266 355 0 R /X267 356 0 R /X268 357 0 R /X269 358 0 R /X270
+359 0 R /X271 360 0 R /X272 361 0 R /X273 362 0 R /X274 363 0 R /X275
+364 0 R /X276 365 0 R /X277 366 0 R /X278 367 0 R /X279 368 0 R /X280
+369 0 R /X281 370 0 R /X282 371 0 R /X283 372 0 R /X284 373 0 R
+F2 374 0 R /F1 376 0 R /F3 378 0 R
+Contents 380 0 R
+0 0 1920 1080
+LastModified (D:20251030210715
+Parent 441 0 R
+346 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20SHORT15.
+20PRIZES.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 239524
+0 U0mPhIlF
+VAaaZ_Kdi
+Eywq2/dD0
+347 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 6497
+348 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1289
+349 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2419
+350 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2257
+351 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1407
+352 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 3027
+353 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+354 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2276
+355 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1990
+356 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 6221
+CDDDJBJOFF/
+357 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1283
+358 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1889
+359 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2797
+360 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 674
+361 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 859
+362 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2611
+363 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 705
+364 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 713
+365 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 3264
+366 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 663
+367 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 771
+368 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 3465
+369 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 535
+370 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 686
+371 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 3547
+372 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 625
+373 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 846
+374 0 obj
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 375 0 R
+Type /Font
+375 0 obj
+Filter /FlateDecode
+Length 440
+376 0 obj
+BaseFont /ACHVTR
+Helvetica-Black-SemiBold
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 377 0 R
+Type /Font
+377 0 obj
+Filter /FlateDecode
+Length 325
+378 0 obj
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 379 0 R
+Type /Font
+379 0 obj
+Filter /FlateDecode
+Length 316
+380 0 obj
+Filter /FlateDecode
+Length 1617
+381 0 obj
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X285 382 0 R /X286 383 0 R /X287 384 0 R /X288
+385 0 R /X289 386 0 R /X290 387 0 R /X291 388 0 R /X292 389 0 R /X293
+390 0 R /X294 391 0 R /X295 392 0 R /X296 393 0 R /X297 394 0 R /X298
+395 0 R /X299 396 0 R /X300 397 0 R
+F3 398 0 R /F2 400 0 R /F1
+Contents 404 0 R
+0 0 1920 1080
+LastModified (D:20251030210723
+Parent 442 0 R
+382 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20SHORT16.
+20copia.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 220628
+44)-Kee(o
+wi)P9tvpiJ
+383 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2474
+384 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 3525
+385 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 608
+386 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 866
+387 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 4315
+388 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 682
+389 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1190
+390 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 903
+391 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 10757
+392 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2476
+393 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 909
+394 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 856
+395 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2784
+396 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 889
+397 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 848
+398 0 obj
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 399 0 R
+Type /Font
+399 0 obj
+Filter /FlateDecode
+Length 310
+400 0 obj
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 401 0 R
+Type /Font
+401 0 obj
+Filter /FlateDecode
+Length 448
+402 0 obj
+BaseFont /ACHVTR
+Helvetica-Black-SemiBold
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 403 0 R
+Type /Font
+403 0 obj
+Filter /FlateDecode
+Length 315
+404 0 obj
+Filter /FlateDecode
+Length 1380
+405 0 obj
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X301 406 0 R /X302 407 0 R
+Contents 410 0 R
+0 0 1920 1080
+LastModified (D:20251030210729
+Parent 442 0 R
+406 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20SHORT14.TEAM.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 242144
+1FpiBbDpZ
+407 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 2652
+408 0 obj
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 409 0 R
+Type /Font
+409 0 obj
+Filter /FlateDecode
+Length 267
+410 0 obj
+Filter /FlateDecode
+Length 146
+411 0 obj
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X303 412 0 R /X304 413 0 R /X305 414 0 R /X306
+F1 416 0 R /F2 418 0 R
+Contents 420 0 R
+0 0 1920 1080
+LastModified (D:20251030210736
+Parent 442 0 R
+412 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20SHORT14
+20CONTACT
+20INFO.jpg
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 250331
+L(Ra8nuyUa
+h8dM,;EtN
+413 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceGray
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 833
+414 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 5489
+415 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 3212
+416 0 obj
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 417 0 R
+Type /Font
+417 0 obj
+Filter /FlateDecode
+Length 276
+418 0 obj
+BaseFont /AQEAQO
+Amiri-Regular
+DescendantFonts
+Encoding /Identity-H
+Subtype /Type0
+ToUnicode 419 0 R
+Type /Font
+419 0 obj
+Filter /FlateDecode
+Length 438
+420 0 obj
+Filter /FlateDecode
+Length 687
+421 0 obj
+Type /Page
+0 0 1920 1080
+0 0 1920 1080
+Resources
+X307 423 0 R
+Contents 422 0 R
+0 0 1920 1080
+LastModified (D:20251030210749
+Parent 442 0 R
+422 0 obj
+Filter /FlateDecode
+Length 35
+423 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+ImageName /PITCH
+20ALCHEMICE
+20SHORT17.
+20END.jpg
+Intent /Perceptual
+SMask 449 0 R
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 169712
+dikfuCLXMf
+YIrRik2(H1m
+424 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 929
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 545
+425 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+426 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 5526
+427 0 obj
+BaseFont /BBFIHV
+MorrisRomanAlternate-Black
+CIDSystemInfo
+Ordering (Identity
+000) /Registry (Adobe
+000) /Supplement
+CIDToGIDMap /Identity
+FontDescriptor 428 0 R
+Subtype /CIDFontType2
+Type /Font
+428 0 obj
+Ascent 854
+AvgWidth 475
+CapHeight 642
+Descent -209
+56 -209 1415 854
+FontFile2 429 0 R
+FontName /BBFIHV
+MorrisRomanAlternate-Black
+ItalicAngle 0
+MaxWidth 1471
+StemV 104
+Type /FontDescriptor
+XHeight 453
+429 0 obj
+Length1 15476
+Filter /FlateDecode
+Length 9772
+430 0 obj
+Filter /FlateDecode
+Length 293
+431 0 obj
+BaseFont /AQEAQO
+Amiri-Regular
+CIDSystemInfo
+Ordering (Identity
+000) /Registry (Adobe
+000) /Supplement
+CIDToGIDMap /Identity
+FontDescriptor 432 0 R
+Subtype /CIDFontType2
+Type /Font
+432 0 obj
+Ascent 1815
+AvgWidth 472
+CapHeight 646
+Descent -900
+438 -900 11467 1815
+FontFile2 433 0 R
+FontName /AQEAQO
+Amiri-Regular
+ItalicAngle 0
+MaxWidth 5000
+Type /FontDescriptor
+XHeight 420
+433 0 obj
+Length1 64384
+Filter /FlateDecode
+Length 22306
+434 0 obj
+BitsPerComponent 8
+ColorSpace /DeviceRGB
+Height 1080
+Intent /Perceptual
+Subtype /Image
+Type /XObject
+Width 1920
+FlateDecode /DCTDecode
+DecodeParms
+Quality 75
+Length 1917
+435 0 obj
+BaseFont /AQEAQO
+Amiri-Bold
+CIDSystemInfo
+Ordering (Identity
+000) /Registry (Adobe
+000) /Supplement
+CIDToGIDMap /Identity
+FontDescriptor 436 0 R
+Subtype /CIDFontType2
+Type /Font
+436 0 obj
+Ascent 1823
+AvgWidth 490
+CapHeight 646
+Descent -909
+447 -909 11550 1823
+FontFile2 433 0 R
+FontName /AQEAQO
+Amiri-Bold
+ItalicAngle 0
+MaxWidth 5000
+StemV 128
+Type /FontDescriptor
+XHeight 433
+437 0 obj
+BaseFont /ACHVTR
+Helvetica-Black-SemiBold
+CIDSystemInfo
+Ordering (Identity
+000) /Registry (Adobe
+000) /Supplement
+CIDToGIDMap /Identity
+FontDescriptor 438 0 R
+Subtype /CIDFontType2
+Type /Font
+438 0 obj
+Ascent 698
+AvgWidth 533
+CapHeight 647
+Descent -216
+110 -216 998 698
+FontFile2 439 0 R
+FontName /ACHVTR
+Helvetica-Black-SemiBold
+ItalicAngle 0
+MaxWidth 1108
+StemV 192
+Type /FontDescriptor
+XHeight 466
+439 0 obj
+Length1 5180
+Filter /FlateDecode
+Length 3161
+440 0 obj
+Type /Pages
+441 0 R 442 0 R
+441 0 obj
+Type /Pages
+446 0 R 1 0 R 9 0 R 17 0 R 29 0 R 56 0 R 72 0 R 77 0 R 80 0 R 83 0 R
+92 0 R 98 0 R 178 0 R 184 0 R 200 0 R 251 0 R 293 0 R 307 0 R 326 0 R
+Parent 440 0 R
+442 0 obj
+Type /Pages
+Parent 440 0 R
+381 0 R 405 0 R 411 0 R 421 0 R
+443 0 obj
+CreationDate (D:20251030210749
+Creator (PDF Presentation Adobe Photoshop )
+Producer (Heyzine.com_1.1.3)
+ModDate (D:20251030201114Z)
+0000000000 65535 f
+0000285944 00000 n
+0000286284 00000 n
+0000614489 00000 n
+0000615332 00000 n
+0000615724 00000 n
+0000615898 00000 n
+0000616057 00000 n
+0000616512 00000 n
+0000617699 00000 n
+0000618048 00000 n
+0000950600 00000 n
+0000951588 00000 n
+0000951986 00000 n
+0000952161 00000 n
+0000952322 00000 n
+0000952755 00000 n
+0000953844 00000 n
+0000954194 00000 n
+0001143111 00000 n
+0001143501 00000 n
+0001155155 00000 n
+0001160940 00000 n
+0001161121 00000 n
+0001161302 00000 n
+0001161476 00000 n
+0001161819 00000 n
+0001161980 00000 n
+0001162462 00000 n
+0001163765 00000 n
+0001164298 00000 n
+0001375278 00000 n
+0001378550 00000 n
+0001378731 00000 n
+0001378997 00000 n
+0001379178 00000 n
+0001379441 00000 n
+0001379622 00000 n
+0001379888 00000 n
+0001380069 00000 n
+0001380332 00000 n
+0001380513 00000 n
+0001381708 00000 n
+0001383506 00000 n
+0001384647 00000 n
+0001388996 00000 n
+0001390177 00000 n
+0001391214 00000 n
+0001393954 00000 n
+0001395238 00000 n
+0001398232 00000 n
+0001402154 00000 n
+0001402328 00000 n
+0001402753 00000 n
+0001402914 00000 n
+0001403342 00000 n
+0001404835 00000 n
+0001405234 00000 n
+0001576766 00000 n
+0001577157 00000 n
+0001583096 00000 n
+0001585271 00000 n
+0001587458 00000 n
+0001587639 00000 n
+0001587820 00000 n
+0001588001 00000 n
+0001588175 00000 n
+0001588553 00000 n
+0001588711 00000 n
+0001589108 00000 n
+0001589269 00000 n
+0001589725 00000 n
+0001590976 00000 n
+0001591268 00000 n
+0001886815 00000 n
+0001886989 00000 n
+0001887324 00000 n
+0001887541 00000 n
+0001887796 00000 n
+0001887911 00000 n
+0002000807 00000 n
+0002001062 00000 n
+0002001177 00000 n
+0002114081 00000 n
+0002114395 00000 n
+0002475352 00000 n
+0002478758 00000 n
+0002481454 00000 n
+0002481628 00000 n
+0002481977 00000 n
+0002482138 00000 n
+0002482563 00000 n
+0002483189 00000 n
+0002483480 00000 n
+0002541790 00000 n
+0002543473 00000 n
+0002543634 00000 n
+0002544009 00000 n
+0002544294 00000 n
+0002545565 00000 n
+0002711564 00000 n
+0002715809 00000 n
+0002716914 00000 n
+0002717096 00000 n
+0002717278 00000 n
+0002717460 00000 n
+0002717642 00000 n
+0002718552 00000 n
+0002718734 00000 n
+0002718916 00000 n
+0002719098 00000 n
+0002719280 00000 n
+0002719462 00000 n
+0002724238 00000 n
+0002724420 00000 n
+0002724923 00000 n
+0002725355 00000 n
+0002725693 00000 n
+0002725946 00000 n
+0002726382 00000 n
+0002727391 00000 n
+0002727784 00000 n
+0002727966 00000 n
+0002728148 00000 n
+0002728330 00000 n
+0002728512 00000 n
+0002728694 00000 n
+0002728986 00000 n
+0002730153 00000 n
+0002731308 00000 n
+0002732367 00000 n
+0002733824 00000 n
+0002734966 00000 n
+0002735988 00000 n
+0002736170 00000 n
+0002736352 00000 n
+0002736534 00000 n
+0002736716 00000 n
+0002736898 00000 n
+0002737080 00000 n
+0002737262 00000 n
+0002737444 00000 n
+0002737626 00000 n
+0002737808 00000 n
+0002737990 00000 n
+0002738172 00000 n
+0002738458 00000 n
+0002738640 00000 n
+0002738925 00000 n
+0002739107 00000 n
+0002739375 00000 n
+0002739557 00000 n
+0002739739 00000 n
+0002739921 00000 n
+0002740199 00000 n
+0002740381 00000 n
+0002740615 00000 n
+0002740797 00000 n
+0002741084 00000 n
+0002741266 00000 n
+0002741502 00000 n
+0002742919 00000 n
+0002743907 00000 n
+0002744858 00000 n
+0002745040 00000 n
+0002745331 00000 n
+0002745513 00000 n
+0002745799 00000 n
+0002749815 00000 n
+0002751791 00000 n
+0002751973 00000 n
+0002752155 00000 n
+0002752331 00000 n
+0002752699 00000 n
+0002752859 00000 n
+0002753309 00000 n
+0002753472 00000 n
+0002753935 00000 n
+0002760921 00000 n
+0002761219 00000 n
+0002994958 00000 n
+0002997839 00000 n
+0002998015 00000 n
+0002998363 00000 n
+0002998594 00000 n
+0002999017 00000 n
+0003255201 00000 n
+0003259702 00000 n
+0003266302 00000 n
+0003274806 00000 n
+0003275188 00000 n
+0003275571 00000 n
+0003279652 00000 n
+0003284506 00000 n
+0003289107 00000 n
+0003294479 00000 n
+0003294655 00000 n
+0003295048 00000 n
+0003295211 00000 n
+0003295669 00000 n
+0003296559 00000 n
+0003297479 00000 n
+0003463947 00000 n
+0003464999 00000 n
+0003466154 00000 n
+0003467261 00000 n
+0003468321 00000 n
+0003468503 00000 n
+0003468685 00000 n
+0003468867 00000 n
+0003469049 00000 n
+0003472286 00000 n
+0003474072 00000 n
+0003475706 00000 n
+0003477481 00000 n
+0003479198 00000 n
+0003480630 00000 n
+0003481981 00000 n
+0003483292 00000 n
+0003484485 00000 n
+0003485757 00000 n
+0003487097 00000 n
+0003488432 00000 n
+0003488891 00000 n
+0003489902 00000 n
+0003490507 00000 n
+0003491710 00000 n
+0003491892 00000 n
+0003492074 00000 n
+0003492256 00000 n
+0003492438 00000 n
+0003492697 00000 n
+0003492985 00000 n
+0003493167 00000 n
+0003493389 00000 n
+0003493571 00000 n
+0003493753 00000 n
+0003493935 00000 n
+0003494117 00000 n
+0003494299 00000 n
+0003494481 00000 n
+0003494663 00000 n
+0003494845 00000 n
+0003495027 00000 n
+0003495209 00000 n
+0003495391 00000 n
+0003495573 00000 n
+0003495749 00000 n
+0003496141 00000 n
+0003496304 00000 n
+0003496759 00000 n
+0003499124 00000 n
+0003499917 00000 n
+0003660148 00000 n
+0003663264 00000 n
+0003664595 00000 n
+0003672124 00000 n
+0003673568 00000 n
+0003676215 00000 n
+0003677577 00000 n
+0003677759 00000 n
+0003679068 00000 n
+0003679250 00000 n
+0003680587 00000 n
+0003681564 00000 n
+0003681746 00000 n
+0003683020 00000 n
+0003684116 00000 n
+0003684298 00000 n
+0003685496 00000 n
+0003686613 00000 n
+0003686795 00000 n
+0003688013 00000 n
+0003689117 00000 n
+0003689299 00000 n
+0003690636 00000 n
+0003691835 00000 n
+0003692017 00000 n
+0003693453 00000 n
+0003693635 00000 n
+0003694652 00000 n
+0003695745 00000 n
+0003695927 00000 n
+0003697266 00000 n
+0003699594 00000 n
+0003699776 00000 n
+0003700809 00000 n
+0003702114 00000 n
+0003702296 00000 n
+0003702472 00000 n
+0003702930 00000 n
+0003703090 00000 n
+0003703567 00000 n
+0003720521 00000 n
+0003720916 00000 n
+0003969633 00000 n
+0003970069 00000 n
+0003972518 00000 n
+0003972700 00000 n
+0003972882 00000 n
+0003973064 00000 n
+0003973246 00000 n
+0003976094 00000 n
+0003976270 00000 n
+0003976668 00000 n
+0003976831 00000 n
+0003977242 00000 n
+0003977935 00000 n
+0003978401 00000 n
+0004235254 00000 n
+0004238946 00000 n
+0004245529 00000 n
+0004248425 00000 n
+0004252472 00000 n
+0004260374 00000 n
+0004261819 00000 n
+0004266999 00000 n
+0004268557 00000 n
+0004268739 00000 n
+0004268921 00000 n
+0004269103 00000 n
+0004271746 00000 n
+0004271922 00000 n
+0004272316 00000 n
+0004272479 00000 n
+0004272935 00000 n
+0004299988 00000 n
+0004300454 00000 n
+0004540181 00000 n
+0004541402 00000 n
+0004544324 00000 n
+0004545610 00000 n
+0004545792 00000 n
+0004545974 00000 n
+0004546156 00000 n
+0004546338 00000 n
+0004546520 00000 n
+0004546702 00000 n
+0004546884 00000 n
+0004547066 00000 n
+0004551413 00000 n
+0004551589 00000 n
+0004552001 00000 n
+0004552164 00000 n
+0004552602 00000 n
+0004553695 00000 n
+0004554386 00000 n
+0004794233 00000 n
+0004800996 00000 n
+0004802552 00000 n
+0004805238 00000 n
+0004807761 00000 n
+0004809434 00000 n
+0004812727 00000 n
+0004812909 00000 n
+0004815451 00000 n
+0004817707 00000 n
+0004824194 00000 n
+0004825744 00000 n
+0004827900 00000 n
+0004830963 00000 n
+0004831903 00000 n
+0004833028 00000 n
+0004835905 00000 n
+0004836876 00000 n
+0004837855 00000 n
+0004841385 00000 n
+0004842314 00000 n
+0004843351 00000 n
+0004847082 00000 n
+0004847883 00000 n
+0004848835 00000 n
+0004852648 00000 n
+0004853539 00000 n
+0004854651 00000 n
+0004854814 00000 n
+0004855337 00000 n
+0004855511 00000 n
+0004855919 00000 n
+0004856095 00000 n
+0004856494 00000 n
+0004858195 00000 n
+0004858716 00000 n
+0005079675 00000 n
+0005082415 00000 n
+0005086206 00000 n
+0005087080 00000 n
+0005088212 00000 n
+0005092793 00000 n
+0005093741 00000 n
+0005095198 00000 n
+0005096367 00000 n
+0005107391 00000 n
+0005110133 00000 n
+0005111308 00000 n
+0005112430 00000 n
+0005115480 00000 n
+0005116635 00000 n
+0005117749 00000 n
+0005117925 00000 n
+0005118318 00000 n
+0005118481 00000 n
+0005119012 00000 n
+0005119186 00000 n
+0005119584 00000 n
+0005121048 00000 n
+0005121346 00000 n
+0005363808 00000 n
+0005366726 00000 n
+0005366902 00000 n
+0005367252 00000 n
+0005367481 00000 n
+0005367819 00000 n
+0005618480 00000 n
+0005619579 00000 n
+0005625334 00000 n
+0005628812 00000 n
+0005628988 00000 n
+0005629347 00000 n
+0005629510 00000 n
+0005630031 00000 n
+0005630801 00000 n
+0005631060 00000 n
+0005631177 00000 n
+0005801225 00000 n
+0005802031 00000 n
+0005802213 00000 n
+0005808005 00000 n
+0005808248 00000 n
+0005808524 00000 n
+0005818396 00000 n
+0005818772 00000 n
+0005819002 00000 n
+0005819268 00000 n
+0005841675 00000 n
+0005843858 00000 n
+0005844085 00000 n
+0005844349 00000 n
+0005844590 00000 n
+0005844864 00000 n
+0005848124 00000 n
+0005848203 00000 n
+0005848432 00000 n
+0005848543 00000 n
+68b68fa53e236048209c0ce7ce296688
+68b68fa53e236048209c0ce7ce296688
+startxref
