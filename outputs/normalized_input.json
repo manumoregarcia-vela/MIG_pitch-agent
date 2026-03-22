@@ -38,12 +38,12 @@
     "Missing: traction.community_size"
   ],
   "source_map": {
-    "document": "AlcheMice_m.pdf",
+    "document": "AlcheMice_m.extracted.txt",
     "text_source": "AlcheMice_m.extracted.txt",
     "ingestion_mode": "sidecar-text",
     "sidecar_text_used": true,
-    "normalization_mode": "llm-based",
-    "llm_path": "prompted-snippet-extraction",
-    "llm_used": false
+    "normalization_mode": "hybrid-fallback",
+    "llm_used": false,
+    "llm_error": "OPENAI_API_KEY is missing; cannot run real LLM normalization."
   }
 }

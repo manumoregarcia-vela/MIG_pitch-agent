@@ -5,6 +5,7 @@ import re
 from typing import Any
 
 from agents.document_ingestion_agent import build_normalized_input, parse_studio_document
+from agents.document_llm_normalizer_agent import normalize_text_to_structured_input
 
 
 def _empty_normalized_template(source_file: str, mode: str) -> dict[str, Any]:
@@ -108,47 +109,28 @@ def _llm_normalize_document(
     quality_report: dict[str, Any],
     page_hints: list[dict[str, Any]],
 ) -> tuple[dict[str, Any], dict[str, Any]]:
-    snippets = _collect_text_snippets(raw_text, page_hints)
-    compact_representation = {
-        "source_file": source_file,
-        "quality_reasons": quality_report.get("reasons", []),
-        "snippets": snippets,
-        "page_hints": page_hints,
-    }
-
-    # V1 "LLM path": keep a prompt-like artifact and parse from focused snippets.
-    llm_prompt = {
-        "instruction": (
-            "Extract startup pitch fields into the normalized schema without inventing missing facts."
-        ),
-        "schema_sections": [
-            "studio_profile",
-            "game_profile",
-            "traction",
-            "business",
-            "team",
-            "assets",
-            "known_gaps",
-            "source_map",
-        ],
-        "compact_representation": compact_representation,
-    }
-
-    seed_text = "\n".join(snippets)
-    parsed = parse_studio_document(seed_text, source_file=source_file)
-    normalized = build_normalized_input(parsed, source_file=source_file)
-    normalized.setdefault("source_map", {})["normalization_mode"] = "llm-based"
-    normalized["source_map"]["llm_path"] = "prompted-snippet-extraction"
-    normalized["source_map"]["llm_used"] = os.getenv("OPENAI_API_KEY") is not None
-
-    llm_artifact = {
-        "mode": "llm-based",
-        "provider": "simulated-local",
-        "llm_used": normalized["source_map"]["llm_used"],
-        "prompt_payload": llm_prompt,
-        "normalized_output": normalized,
-    }
-    return normalized, llm_artifact
+    try:
+        return normalize_text_to_structured_input(raw_text=raw_text, source_file=source_file)
+    except Exception as exc:
+        snippets = _collect_text_snippets(raw_text, page_hints)
+        seed_text = "\n".join(snippets)
+        parsed = parse_studio_document(seed_text, source_file=source_file)
+        normalized = build_normalized_input(parsed, source_file=source_file)
+        normalized.setdefault("source_map", {}).update(
+            {
+                "normalization_mode": "hybrid-fallback",
+                "llm_used": False,
+                "llm_error": str(exc),
+            }
+        )
+        llm_artifact = {
+            "mode": "hybrid-fallback",
+            "provider": "openai",
+            "llm_used": False,
+            "error": str(exc),
+            "normalized_output": normalized,
+        }
+        return normalized, llm_artifact
 
 
 def normalize_document_content(
@@ -161,7 +143,7 @@ def normalize_document_content(
 ) -> tuple[dict[str, Any], str, list[str], dict[str, Any] | None]:
     hints = page_hints or []
     quality = quality_report.get("quality", "poor")
-    use_llm = force_llm if force_llm is not None else os.getenv("MIG_USE_LLM_NORMALIZATION") == "1"
+    use_llm = force_llm if force_llm is not None else os.getenv("MIG_USE_LLM_NORMALIZATION", "1") == "1"
 
     if use_llm:
         normalized, llm_artifact = _llm_normalize_document(
