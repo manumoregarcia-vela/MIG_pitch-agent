@@ -1,60 +1,27 @@
 {
   "facts": {
-    "studio_name": "Neon Lynx Studio",
-    "game_name": "Echoes of Titanium",
-    "genre": "Action Roguelite",
+    "studio_name": "Slide 20  Premios estudio",
+    "game_name": "",
+    "genre": "",
     "platform": [
-      "PC (Steam)",
-      "PlayStation 5"
+      "iOS"
     ],
-    "development_stage": "Public demo available; vertical slice complete",
-    "traction_signals": {
-      "steam_wishlists": 38200,
-      "demo_downloads": 9100,
-      "discord_members": 6400,
-      "youtube_trailer_views": 125000,
-      "festival_selection": "Indie Arena Booth 2025 selection"
-    },
-    "business_model": "Premium game + cosmetic DLC",
-    "audience": "Core PC/console players aged 18-34",
-    "USP": "High-speed mech combat in procedural arenas",
-    "team": [
-      {
-        "name": "Irene Soler",
-        "role": "CEO / Game Director",
-        "credential": "Former combat designer at MercurySteam"
-      },
-      {
-        "name": "Dario Vega",
-        "role": "CTO",
-        "credential": "8 years in Unreal Engine multiplayer systems"
-      },
-      {
-        "name": "Lucia Bernal",
-        "role": "Art Director",
-        "credential": "Ex-Platige Image, specialized in sci-fi pipelines"
-      }
-    ],
-    "current_ask": "Publishing partner for global launch + co-marketing",
-    "funding_status": "Pre-seed raised in 2023 (amount undisclosed)",
-    "proof_points": [
-      "38,200 Steam wishlists",
-      "9,100 demo downloads"
-    ],
+    "development_stage": "",
+    "traction_signals": {},
+    "business_model": "",
+    "audience": "",
+    "USP": "",
+    "team": [],
+    "current_ask": "",
+    "funding_status": "",
+    "proof_points": [],
     "available_assets": {
-      "gameplay_video": "https://example.com/echoes-gameplay-trailer",
-      "press_kit": "https://example.com/neon-lynx-press-kit",
-      "key_art": true,
-      "logo_pack": true,
-      "steam_page": "https://store.steampowered.com/app/1234567"
+      "video": true,
+      "gameplay": true,
+      "demo": true
     }
   },
   "inferences": [
-    {
-      "statement": "Las señales iniciales sugieren interés real del mercado antes del lanzamiento.",
-      "reasoning": "El volumen de wishlists es relevante para una fase pre-launch.",
-      "confidence": "medium"
-    },
     {
       "statement": "La credibilidad del pitch depende de compensar bien los gaps de información.",
       "reasoning": "Faltan varios datos críticos para una conversación avanzada con inversores o publishers.",
@@ -62,16 +29,24 @@
     }
   ],
   "missing_critical_info": [
-    "No retention metrics from demo sessions",
-    "No CPI/UA efficiency benchmarks",
-    "No explicit launch budget split"
+    "Missing: game_profile.game_name",
+    "Missing: game_profile.genre",
+    "Missing: game_profile.development_stage",
+    "Missing: game_profile.core_fantasy",
+    "Missing: business.business_model",
+    "Missing: business.target_audience",
+    "Missing: business.current_ask",
+    "Missing: business.funding_status",
+    "Missing: traction.steam_wishlists",
+    "Missing: traction.demo_downloads",
+    "Missing: traction.trailer_views",
+    "Missing: traction.community_size"
   ],
   "source_map": {
-    "studio_profile": "Founders questionnaire (2026-03-20)",
-    "game_profile": "Internal one-pager v2",
-    "traction": "Steam dashboard export (2026-03-18)",
-    "business": "Founder interview notes",
-    "team": "Team bio sheet",
-    "assets": "Press kit index"
+    "document": "AlcheMice_m.extracted.txt",
+    "text_source": "AlcheMice_m.extracted.txt",
+    "ingestion_mode": "sidecar-text",
+    "sidecar_text_used": true,
+    "normalization_mode": "rule-based"
   }
 }

@@ -1,18 +1,15 @@
 {
-  "quality": "poor",
-  "reasons": [
-    "High ratio of technical/PDF tokens",
-    "Low number of meaningful sentences"
-  ],
+  "quality": "good",
+  "reasons": [],
   "scores": {
-    "total_chars": 9064,
-    "total_word_count": 20,
+    "total_chars": 2254,
+    "total_word_count": 241,
     "pdf_internal_count": 0,
     "pdf_internal_density": 0.0,
     "natural_language_ratio": 1.0,
-    "technical_token_count": 284,
-    "technical_token_ratio": 14.2,
-    "meaningful_sentence_count": 2,
+    "technical_token_count": 4,
+    "technical_token_ratio": 0.0166,
+    "meaningful_sentence_count": 27,
     "internal_token_breakdown": {
       "obj": 0,
       "/Page": 0,
