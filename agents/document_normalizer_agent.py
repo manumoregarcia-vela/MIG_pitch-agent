@@ -5,7 +5,7 @@ import re
 from typing import Any
 
 from agents.document_ingestion_agent import build_normalized_input, parse_studio_document
-from agents.document_llm_normalizer_agent import normalize_text_to_structured_input
+from agents.document_llm_normalizer_agent import _build_prompt, normalize_text_to_structured_input
 
 
 def _empty_normalized_template(source_file: str, mode: str) -> dict[str, Any]:
@@ -128,6 +128,7 @@ def _llm_normalize_document(
             "provider": "openai",
             "llm_used": False,
             "error": str(exc),
+            "prompt": _build_prompt(raw_text=raw_text, source_file=source_file),
             "normalized_output": normalized,
         }
         return normalized, llm_artifact
@@ -140,10 +141,16 @@ def normalize_document_content(
     page_hints: list[dict[str, Any]] | None = None,
     source_map_overrides: dict[str, Any] | None = None,
     force_llm: bool | None = None,
+    strict_llm: bool | None = None,
 ) -> tuple[dict[str, Any], str, list[str], dict[str, Any] | None]:
     hints = page_hints or []
     quality = quality_report.get("quality", "poor")
     use_llm = force_llm if force_llm is not None else os.getenv("MIG_USE_LLM_NORMALIZATION", "1") == "1"
+    llm_strict = (
+        strict_llm
+        if strict_llm is not None
+        else os.getenv("MIG_STRICT_LLM_NORMALIZATION", "0") == "1"
+    )
 
     if use_llm:
         normalized, llm_artifact = _llm_normalize_document(
@@ -152,6 +159,10 @@ def normalize_document_content(
             quality_report=quality_report,
             page_hints=hints,
         )
+        if llm_strict and not bool(llm_artifact.get("llm_used")):
+            raise RuntimeError(
+                "Strict LLM normalization is enabled and the LLM normalization path did not complete."
+            )
         if source_map_overrides:
             normalized.setdefault("source_map", {}).update(source_map_overrides)
         return normalized, "llm-based", quality_report.get("reasons", []), llm_artifact

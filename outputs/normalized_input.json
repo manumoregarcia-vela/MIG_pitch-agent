@@ -38,7 +38,7 @@
     "Missing: traction.community_size"
   ],
   "source_map": {
-    "document": "AlcheMice_m.extracted.txt",
+    "document": "AlcheMice_m.pdf",
     "text_source": "AlcheMice_m.extracted.txt",
     "ingestion_mode": "sidecar-text",
     "sidecar_text_used": true,
