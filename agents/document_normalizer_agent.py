@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import re
 from typing import Any
 
@@ -101,15 +102,77 @@ def _fallback_normalize_document(
     return normalized
 
 
+def _llm_normalize_document(
+    raw_text: str,
+    source_file: str,
+    quality_report: dict[str, Any],
+    page_hints: list[dict[str, Any]],
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    snippets = _collect_text_snippets(raw_text, page_hints)
+    compact_representation = {
+        "source_file": source_file,
+        "quality_reasons": quality_report.get("reasons", []),
+        "snippets": snippets,
+        "page_hints": page_hints,
+    }
+
+    # V1 "LLM path": keep a prompt-like artifact and parse from focused snippets.
+    llm_prompt = {
+        "instruction": (
+            "Extract startup pitch fields into the normalized schema without inventing missing facts."
+        ),
+        "schema_sections": [
+            "studio_profile",
+            "game_profile",
+            "traction",
+            "business",
+            "team",
+            "assets",
+            "known_gaps",
+            "source_map",
+        ],
+        "compact_representation": compact_representation,
+    }
+
+    seed_text = "\n".join(snippets)
+    parsed = parse_studio_document(seed_text, source_file=source_file)
+    normalized = build_normalized_input(parsed, source_file=source_file)
+    normalized.setdefault("source_map", {})["normalization_mode"] = "llm-based"
+    normalized["source_map"]["llm_path"] = "prompted-snippet-extraction"
+    normalized["source_map"]["llm_used"] = os.getenv("OPENAI_API_KEY") is not None
+
+    llm_artifact = {
+        "mode": "llm-based",
+        "provider": "simulated-local",
+        "llm_used": normalized["source_map"]["llm_used"],
+        "prompt_payload": llm_prompt,
+        "normalized_output": normalized,
+    }
+    return normalized, llm_artifact
+
+
 def normalize_document_content(
     raw_text: str,
     source_file: str,
     quality_report: dict[str, Any],
     page_hints: list[dict[str, Any]] | None = None,
     source_map_overrides: dict[str, Any] | None = None,
-) -> tuple[dict[str, Any], str, list[str]]:
+    force_llm: bool | None = None,
+) -> tuple[dict[str, Any], str, list[str], dict[str, Any] | None]:
     hints = page_hints or []
     quality = quality_report.get("quality", "poor")
+    use_llm = force_llm if force_llm is not None else os.getenv("MIG_USE_LLM_NORMALIZATION") == "1"
+
+    if use_llm:
+        normalized, llm_artifact = _llm_normalize_document(
+            raw_text=raw_text,
+            source_file=source_file,
+            quality_report=quality_report,
+            page_hints=hints,
+        )
+        if source_map_overrides:
+            normalized.setdefault("source_map", {}).update(source_map_overrides)
+        return normalized, "llm-based", quality_report.get("reasons", []), llm_artifact
 
     if quality == "good":
         parsed = parse_studio_document(raw_text, source_file=source_file)
@@ -117,7 +180,7 @@ def normalize_document_content(
         normalized.setdefault("source_map", {})["normalization_mode"] = "rule-based"
         if source_map_overrides:
             normalized["source_map"].update(source_map_overrides)
-        return normalized, "rule-based", quality_report.get("reasons", [])
+        return normalized, "rule-based", quality_report.get("reasons", []), None
 
     normalized = _fallback_normalize_document(
         raw_text=raw_text,
@@ -127,4 +190,4 @@ def normalize_document_content(
     )
     if source_map_overrides:
         normalized.setdefault("source_map", {}).update(source_map_overrides)
-    return normalized, "hybrid-fallback", quality_report.get("reasons", [])
+    return normalized, "hybrid-fallback", quality_report.get("reasons", []), None

@@ -90,7 +90,7 @@ def _load_studio_input(
         quality_report = assess_extraction_quality(raw_text)
         _write_json(outputs_dir / "extraction_quality.json", quality_report)
 
-        studio_input, normalization_mode, reasons = normalize_document_content(
+        studio_input, normalization_mode, reasons, llm_artifact = normalize_document_content(
             raw_text=raw_text,
             source_file=selected.name,
             quality_report=quality_report,
@@ -98,6 +98,8 @@ def _load_studio_input(
             source_map_overrides=source_map,
         )
         _write_json(outputs_dir / "normalized_input.json", studio_input)
+        if llm_artifact is not None:
+            _write_json(outputs_dir / "llm_normalization.json", llm_artifact)
 
         reason_msg = "; ".join(reasons) if reasons else "No quality issues detected"
         print(f"[document-mode] normalization_mode={normalization_mode}")

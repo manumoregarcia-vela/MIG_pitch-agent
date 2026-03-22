@@ -1,13 +1,11 @@
 {
   "studio_profile": {
-    "studio_name": "Slide 20  Premios estudio"
+    "studio_name": ""
   },
   "game_profile": {
     "game_name": "",
     "genre": "",
-    "platforms": [
-      "iOS"
-    ],
+    "platforms": [],
     "development_stage": "",
     "core_fantasy": ""
   },
@@ -20,13 +18,14 @@
   },
   "team": [],
   "assets": {
-    "video": true,
     "gameplay": true,
     "demo": true
   },
   "known_gaps": [
+    "Missing: studio_profile.studio_name",
     "Missing: game_profile.game_name",
     "Missing: game_profile.genre",
+    "Missing: game_profile.platforms",
     "Missing: game_profile.development_stage",
     "Missing: game_profile.core_fantasy",
     "Missing: business.business_model",
@@ -39,10 +38,12 @@
     "Missing: traction.community_size"
   ],
   "source_map": {
-    "document": "AlcheMice_m.extracted.txt",
+    "document": "AlcheMice_m.pdf",
     "text_source": "AlcheMice_m.extracted.txt",
     "ingestion_mode": "sidecar-text",
     "sidecar_text_used": true,
-    "normalization_mode": "rule-based"
+    "normalization_mode": "llm-based",
+    "llm_path": "prompted-snippet-extraction",
+    "llm_used": false
   }
 }

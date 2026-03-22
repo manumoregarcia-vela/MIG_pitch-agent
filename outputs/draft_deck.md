@@ -1,4 +1,4 @@
-# Draft Deck — Slide 20  Premios estudio
+# Draft Deck — 
 
 Audience focus: **mixed**
 
@@ -8,8 +8,8 @@ Audience focus: **mixed**
 **Content blocks:**
 - Fantasy principal: 
 - Género: 
-- Plataformas: iOS
-- Estudio: Slide 20  Premios estudio
+- Plataformas: 
+- Estudio: 
 **Suggested visuals:** Key art, Logo, Screenshot principal
 **Confidence level:** high
 **Source reference:** game_profile, studio_profile, assets

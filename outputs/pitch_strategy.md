@@ -16,7 +16,7 @@ Equilibrar claridad de producto, señales de validación, credibilidad del equip
 - La tracción todavía no demuestra de forma contundente el potencial comercial.
 - La lógica de negocio y monetización necesita mayor claridad.
 - La narrativa del equipo puede no ser suficiente para reducir el riesgo de ejecución.
-- Missing: game_profile.game_name
+- Missing: studio_profile.studio_name
 
 ## Recommended slide order
 1. Hook + game fantasy
