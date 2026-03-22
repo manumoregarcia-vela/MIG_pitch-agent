@@ -78,6 +78,12 @@ def _load_studio_input(
         extracted = extract_document_with_hints(selected)
         raw_text = extracted["raw_text"]
         page_hints = extracted.get("page_hints", [])
+        source_map = {
+            "document": selected.name,
+            "text_source": extracted.get("text_source", selected.name),
+            "ingestion_mode": extracted.get("ingestion_mode", "raw-document"),
+            "sidecar_text_used": bool(extracted.get("used_sidecar_text", False)),
+        }
 
         (outputs_dir / "raw_extracted_text.txt").write_text(raw_text, encoding="utf-8")
 
@@ -89,12 +95,17 @@ def _load_studio_input(
             source_file=selected.name,
             quality_report=quality_report,
             page_hints=page_hints,
+            source_map_overrides=source_map,
         )
         _write_json(outputs_dir / "normalized_input.json", studio_input)
 
         reason_msg = "; ".join(reasons) if reasons else "No quality issues detected"
         print(f"[document-mode] normalization_mode={normalization_mode}")
         print(f"[document-mode] quality={quality_report.get('quality')} reasons={reason_msg}")
+        print(
+            "[document-mode] source_map="
+            + json.dumps(studio_input.get("source_map", {}), ensure_ascii=False)
+        )
 
         return studio_input, selected.name
 
@@ -130,6 +141,15 @@ def run(mode: str = "json", input_path: str | None = None, data_dir: str = "data
         _write_json(outputs_dir / "normalized_input.json", studio_input)
     if selected_document:
         print(f"[document-mode] Pipeline completed using: {selected_document}")
+        extracted_fields = sorted(
+            key
+            for key, value in studio_input.items()
+            if key != "known_gaps" and value not in ("", [], {}, None)
+        )
+        print(
+            "[document-mode] extracted_sections="
+            + (", ".join(extracted_fields) if extracted_fields else "none")
+        )
 
 
 def _build_arg_parser() -> argparse.ArgumentParser:

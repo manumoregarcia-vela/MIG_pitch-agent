@@ -1,71 +1,62 @@
 {
-  "audience_type": "mixed",
+  "audience_type": "publisher-first",
   "scores": {
     "product": {
-      "score": 3,
-      "reason": "La propuesta de producto es comprensible pero todavía genérica."
+      "score": 5,
+      "reason": "La fantasy central del juego está relativamente clara. Además, existen assets visuales para demostrar el producto."
     },
     "traction": {
-      "score": 2,
-      "reason": "La validación cuantitativa todavía es débil o insuficiente."
+      "score": 5,
+      "reason": "Las señales tempranas de demanda son fuertes. La ausencia de métricas de retención reduce confianza."
     },
     "market": {
-      "score": 3,
-      "reason": "El posicionamiento de mercado es aceptable pero aún poco específico."
+      "score": 4,
+      "reason": "Existe una definición razonable de género y audiencia objetivo."
     },
     "business_model": {
-      "score": 2,
-      "reason": "El modelo de negocio todavía es poco claro."
+      "score": 3,
+      "reason": "Existe una base de modelo de negocio definida."
     },
     "team": {
-      "score": 2,
-      "reason": "El equipo parece reducido para el alcance potencial del proyecto."
+      "score": 3,
+      "reason": "El equipo tiene una base operativa razonable, aunque aún puede requerir refuerzos."
     },
     "ask": {
-      "score": 1,
-      "reason": "No hay un ask claro definido."
+      "score": 4,
+      "reason": "El ask existe y parece lo bastante específico para una conversación inicial."
     }
   },
-  "narrative_recommendation": "Equilibrar claridad de producto, señales de validación, credibilidad del equipo y una propuesta de partnership/inversión accionable.",
+  "narrative_recommendation": "Abrir con fantasy y calidad de producto, demostrar marketability con gameplay y tracción, y cerrar con un ask claro de publishing/co-marketing.",
   "priority_messages": [
-    "El juego ofrece una propuesta central clara: .",
-    "La narrativa debe reforzar validación cualitativa mientras madura la tracción.",
+    "El juego ofrece una propuesta central clara: High-speed mech combat in procedural arenas.",
+    "Las señales tempranas de tracción sugieren interés real antes del lanzamiento.",
     "La credibilidad del equipo debe explicarse mejor para compensar riesgo de ejecución.",
-    "El pitch debe equilibrar atractivo editorial con credibilidad de negocio."
+    "El caso debe enfatizar marketability, encaje editorial y soporte de lanzamiento."
   ],
   "risks_to_compensate": [
-    "La tracción todavía no demuestra de forma contundente el potencial comercial.",
     "La lógica de negocio y monetización necesita mayor claridad.",
     "La narrativa del equipo puede no ser suficiente para reducir el riesgo de ejecución.",
-    "Missing: studio_profile.studio_name"
+    "No retention metrics from demo sessions",
+    "No CPI/UA efficiency benchmarks"
   ],
   "recommended_slide_order": [
     "Hook + game fantasy",
     "Gameplay + video proof",
+    "Traction and validation",
     "Why now / market opportunity",
-    "Team credibility",
     "Business model + launch plan",
+    "Team credibility",
     "Clear ask + next step"
   ],
   "key_selling_points": [
-    "",
-    ""
+    "High-speed mech combat in procedural arenas",
+    "38,200 Steam wishlists",
+    "9,100 demo downloads",
+    "Publishing partner for global launch + co-marketing"
   ],
   "open_questions": [
-    "Missing: studio_profile.studio_name",
-    "Missing: game_profile.game_name",
-    "Missing: game_profile.genre",
-    "Missing: game_profile.platforms",
-    "Missing: game_profile.development_stage",
-    "Missing: game_profile.core_fantasy",
-    "Missing: business.business_model",
-    "Missing: business.target_audience",
-    "Missing: business.current_ask",
-    "Missing: business.funding_status",
-    "Missing: traction.steam_wishlists",
-    "Missing: traction.demo_downloads",
-    "Missing: traction.trailer_views",
-    "Missing: traction.community_size",
-    "Fallback mode used due to poor extraction quality"
+    "No retention metrics from demo sessions",
+    "No CPI/UA efficiency benchmarks",
+    "No explicit launch budget split"
   ]
 }

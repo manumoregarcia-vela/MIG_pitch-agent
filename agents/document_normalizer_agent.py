@@ -28,7 +28,7 @@ def _empty_normalized_template(source_file: str, mode: str) -> dict[str, Any]:
         "known_gaps": [],
         "source_map": {
             "document": source_file,
-            "ingestion": mode,
+            "ingestion_mode": mode,
         },
     }
 
@@ -106,6 +106,7 @@ def normalize_document_content(
     source_file: str,
     quality_report: dict[str, Any],
     page_hints: list[dict[str, Any]] | None = None,
+    source_map_overrides: dict[str, Any] | None = None,
 ) -> tuple[dict[str, Any], str, list[str]]:
     hints = page_hints or []
     quality = quality_report.get("quality", "poor")
@@ -114,6 +115,8 @@ def normalize_document_content(
         parsed = parse_studio_document(raw_text, source_file=source_file)
         normalized = build_normalized_input(parsed, source_file=source_file)
         normalized.setdefault("source_map", {})["normalization_mode"] = "rule-based"
+        if source_map_overrides:
+            normalized["source_map"].update(source_map_overrides)
         return normalized, "rule-based", quality_report.get("reasons", [])
 
     normalized = _fallback_normalize_document(
@@ -122,4 +125,6 @@ def normalize_document_content(
         quality_report=quality_report,
         page_hints=hints,
     )
+    if source_map_overrides:
+        normalized.setdefault("source_map", {}).update(source_map_overrides)
     return normalized, "hybrid-fallback", quality_report.get("reasons", [])

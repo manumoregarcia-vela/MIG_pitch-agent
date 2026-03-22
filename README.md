@@ -28,12 +28,25 @@ Sistema de agentes para generar y optimizar pitches de videojuegos (5-8 slides) 
    - si hay **1** documento válido: se usa automáticamente
    - si hay **varios**: se elige el primero en orden alfabético y se imprime en logs
    - si no hay documentos soportados: se lanza error claro
-5. Extracción y evaluación de calidad:
-   - se guarda `outputs/raw_extracted_text.txt`
-   - se calcula `outputs/extraction_quality.json`
-6. Normalización condicional:
+5. Sidecar text opcional (preferido):
+   - para un documento `data/SomeDeck.pdf`, el pipeline busca sidecars en este orden:
+     1. `data/SomeDeck.extracted.txt`
+     2. `data/SomeDeck.cleaned.md`
+     3. `data/SomeDeck.txt`
+   - si existe alguno, se usa como `text_source` principal (modo `sidecar-text`) y se evita la extracción raw del PDF/DOCX.
+   - si no existe, se mantiene la extracción normal desde el documento original (modo `raw-document`).
+6. Extracción y evaluación de calidad:
+   - siempre se guarda el texto base en `outputs/raw_extracted_text.txt` (venga de sidecar o de extracción raw).
+   - se calcula `outputs/extraction_quality.json`.
+7. Normalización condicional:
    - **Rule-based mode** (calidad `good`): parser por reglas/regex directo
    - **Hybrid fallback mode** (calidad `poor`): usa representación compacta (snippets, hints por página, filename, marcadores) y normaliza con path fallback preparado para asistencia LLM
+8. `outputs/normalized_input.json` incluye `source_map` enriquecido con:
+   - `document`
+   - `text_source`
+   - `ingestion_mode` (`sidecar-text` o `raw-document`)
+   - `sidecar_text_used`
+   - `normalization_mode` (`rule-based` o `hybrid-fallback`)
 
 ### Why image-based pitch decks need fallback
 
