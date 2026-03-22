@@ -1,27 +1,26 @@
 {
   "quality": "poor",
   "reasons": [
-    "High presence of PDF internal structure tokens",
     "High ratio of technical/PDF tokens",
     "Low number of meaningful sentences"
   ],
   "scores": {
-    "total_chars": 46626,
-    "total_word_count": 3288,
-    "pdf_internal_count": 30,
-    "pdf_internal_density": 0.0006,
+    "total_chars": 9064,
+    "total_word_count": 20,
+    "pdf_internal_count": 0,
+    "pdf_internal_density": 0.0,
     "natural_language_ratio": 1.0,
-    "technical_token_count": 1641,
-    "technical_token_ratio": 0.4991,
-    "meaningful_sentence_count": 0,
+    "technical_token_count": 284,
+    "technical_token_ratio": 14.2,
+    "meaningful_sentence_count": 2,
     "internal_token_breakdown": {
       "obj": 0,
-      "/Page": 27,
+      "/Page": 0,
       "/XObject": 0,
       "FlateDecode": 0,
       "BitsPerComponent": 0,
       "ColorSpace": 0,
-      "Length": 3
+      "Length": 0
     }
   }
 }

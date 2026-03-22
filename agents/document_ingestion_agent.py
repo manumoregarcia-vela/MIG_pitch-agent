@@ -9,6 +9,7 @@ from typing import Any
 from xml.etree import ElementTree
 
 SUPPORTED_EXTENSIONS = {".pdf", ".docx", ".txt"}
+PREFERRED_SIDECAR_SUFFIXES = [".extracted.txt", ".cleaned.md", ".txt"]
 
 
 PDF_NOISE_PATTERNS = [
@@ -125,6 +126,15 @@ def extract_text_from_txt(path: Path) -> str:
     return path.read_text(encoding="utf-8", errors="ignore").strip()
 
 
+def find_preferred_sidecar_text(document_path: Path) -> Path | None:
+    """Return the preferred sidecar text file for a document, if present."""
+    for suffix in PREFERRED_SIDECAR_SUFFIXES:
+        candidate = document_path.with_suffix(suffix)
+        if candidate.exists() and candidate.is_file():
+            return candidate
+    return None
+
+
 def extract_text_from_document(path: Path) -> str:
     suffix = path.suffix.lower()
     if suffix == ".pdf":
@@ -137,11 +147,21 @@ def extract_text_from_document(path: Path) -> str:
 
 
 def extract_document_with_hints(path: Path) -> dict[str, Any]:
-    raw_text = extract_text_from_document(path)
+    sidecar = find_preferred_sidecar_text(path)
+    if sidecar:
+        raw_text = extract_text_from_txt(sidecar)
+        text_source = sidecar.name
+        ingestion_mode = "sidecar-text"
+        used_sidecar_text = True
+    else:
+        raw_text = extract_text_from_document(path)
+        text_source = path.name
+        ingestion_mode = "raw-document"
+        used_sidecar_text = False
 
     page_hints: list[dict[str, Any]] = []
-    page_chunks = re.split(r"\[PAGE\s+(\d+)\]", raw_text)
-    if len(page_chunks) > 1:
+    page_chunks = re.split(r"\[PAGE\s+(\d+)\]", raw_text) if not used_sidecar_text else []
+    if page_chunks and len(page_chunks) > 1:
         for i in range(1, len(page_chunks), 2):
             page_num = int(page_chunks[i])
             page_text = page_chunks[i + 1].strip() if i + 1 < len(page_chunks) else ""
@@ -159,6 +179,9 @@ def extract_document_with_hints(path: Path) -> dict[str, Any]:
         "raw_text": raw_text,
         "page_hints": page_hints,
         "source_file": path.name,
+        "text_source": text_source,
+        "ingestion_mode": ingestion_mode,
+        "used_sidecar_text": used_sidecar_text,
     }
 
 
@@ -372,7 +395,9 @@ def build_normalized_input(parsed_content: dict[str, Any], source_file: str) -> 
         "known_gaps": [],
         "source_map": {
             "document": source_file,
-            "ingestion": "rule-based parser",
+            "text_source": source_file,
+            "ingestion_mode": "raw-document",
+            "sidecar_text_used": False,
         },
     }
 
