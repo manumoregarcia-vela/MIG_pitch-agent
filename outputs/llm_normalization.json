@@ -1,0 +1,94 @@
+{
+  "mode": "llm-based",
+  "provider": "simulated-local",
+  "llm_used": false,
+  "prompt_payload": {
+    "instruction": "Extract startup pitch fields into the normalized schema without inventing missing facts.",
+    "schema_sections": [
+      "studio_profile",
+      "game_profile",
+      "traction",
+      "business",
+      "team",
+      "assets",
+      "known_gaps",
+      "source_map"
+    ],
+    "compact_representation": {
+      "source_file": "AlcheMice_m.pdf",
+      "quality_reasons": [],
+      "snippets": [
+        "AlcheMice  Extraccin de contenido por slide",
+        "AlcheMice. Deckbuilding tipo Slay the Spire combinado con combate estilo XCOM.",
+        "Slide 2  Proyecto previo",
+        "Juego 3rd person accin/aventura/puzles. Historia de Wu, personaje corrompido por una corona con poderes.",
+        "Roguelike de cartas basado en alquimia. Construccin de mazos, mejora mediante alquimia y combate contra enemigos.",
+        "Slide 4  Concepto AlcheMice",
+        "Roguelike + deckbuilder. Ambientado en Granada s. XVI. Protagonista Tycoh busca cuaderno alqumico para salvar a su familia.",
+        "Slide 5  Gameplay Loop",
+        "Ciclo da/noche. Loot, combate, trade y alquimia para mejorar cartas y personaje.",
+        "Arcanos mayores (boost/debuff), menores (combate) y cartas de movimiento.",
+        "Slide 7  Visual cartas",
+        "Ejemplos visuales de cartas tipo tarot.",
+        "Slides visuales sin texto relevante.",
+        "Concept art inicial del entorno con evolucin prevista.",
+        "Slide 11  Gameplay real",
+        "Footage de gameplay real.",
+        "Edad 25-40, jugadores indie, fans de estrategia, deckbuilding y narrativa.",
+        "12h jugadas en demo, 48 min media. Datos iniciales de engagement.",
+        "Slide 14  Modelo negocio",
+        "Premium, pago nico, soporte post-lanzamiento, posibilidad de secuelas."
+      ],
+      "page_hints": []
+    }
+  },
+  "normalized_output": {
+    "studio_profile": {
+      "studio_name": ""
+    },
+    "game_profile": {
+      "game_name": "",
+      "genre": "",
+      "platforms": [],
+      "development_stage": "",
+      "core_fantasy": ""
+    },
+    "traction": {},
+    "business": {
+      "business_model": "",
+      "target_audience": "",
+      "current_ask": "",
+      "funding_status": ""
+    },
+    "team": [],
+    "assets": {
+      "gameplay": true,
+      "demo": true
+    },
+    "known_gaps": [
+      "Missing: studio_profile.studio_name",
+      "Missing: game_profile.game_name",
+      "Missing: game_profile.genre",
+      "Missing: game_profile.platforms",
+      "Missing: game_profile.development_stage",
+      "Missing: game_profile.core_fantasy",
+      "Missing: business.business_model",
+      "Missing: business.target_audience",
+      "Missing: business.current_ask",
+      "Missing: business.funding_status",
+      "Missing: traction.steam_wishlists",
+      "Missing: traction.demo_downloads",
+      "Missing: traction.trailer_views",
+      "Missing: traction.community_size"
+    ],
+    "source_map": {
+      "document": "AlcheMice_m.pdf",
+      "text_source": "AlcheMice_m.extracted.txt",
+      "ingestion_mode": "sidecar-text",
+      "sidecar_text_used": true,
+      "normalization_mode": "llm-based",
+      "llm_path": "prompted-snippet-extraction",
+      "llm_used": false
+    }
+  }
+}

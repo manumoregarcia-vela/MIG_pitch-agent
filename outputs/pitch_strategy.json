@@ -37,7 +37,7 @@
     "La tracción todavía no demuestra de forma contundente el potencial comercial.",
     "La lógica de negocio y monetización necesita mayor claridad.",
     "La narrativa del equipo puede no ser suficiente para reducir el riesgo de ejecución.",
-    "Missing: game_profile.game_name"
+    "Missing: studio_profile.studio_name"
   ],
   "recommended_slide_order": [
     "Hook + game fantasy",
@@ -52,8 +52,10 @@
     ""
   ],
   "open_questions": [
+    "Missing: studio_profile.studio_name",
     "Missing: game_profile.game_name",
     "Missing: game_profile.genre",
+    "Missing: game_profile.platforms",
     "Missing: game_profile.development_stage",
     "Missing: game_profile.core_fantasy",
     "Missing: business.business_model",
