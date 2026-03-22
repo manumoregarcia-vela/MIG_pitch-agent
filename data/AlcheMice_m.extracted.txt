@@ -1,0 +1,60 @@
+AlcheMice – Extracción de contenido por slide
+Slide 1 – Portada
+AlcheMice. Deckbuilding tipo Slay the Spire combinado con combate estilo XCOM.
+Slide 2 – Proyecto previo
+Juego 3rd person acción/aventura/puzles. Historia de Wu, personaje corrompido por una corona con poderes.
+Slide 3 – Hermetica
+Roguelike de cartas basado en alquimia. Construcción de mazos, mejora mediante alquimia y combate contra enemigos.
+Slide 4 – Concepto AlcheMice
+Roguelike + deckbuilder. Ambientado en Granada s. XVI. Protagonista Tycoh busca cuaderno alquímico para salvar a su familia.
+Slide 5 – Gameplay Loop
+Ciclo día/noche. Loot, combate, trade y alquimia para mejorar cartas y personaje.
+Slide 6 – Cartas
+Arcanos mayores (boost/debuff), menores (combate) y cartas de movimiento.
+Slide 7 – Visual cartas
+Ejemplos visuales de cartas tipo tarot.
+Slide 8-9 – Arte
+Slides visuales sin texto relevante.
+Slide 10 – Entorno
+Concept art inicial del entorno con evolución prevista.
+Slide 11 – Gameplay real
+Footage de gameplay real.
+Slide 12 – Target
+Edad 25-40, jugadores indie, fans de estrategia, deckbuilding y narrativa.
+Slide 13 – Analítica
+12h jugadas en demo, 48 min media. Datos iniciales de engagement.
+Slide 14 – Modelo negocio
+Premium, pago único, soporte post-lanzamiento, posibilidad de secuelas.
+Slide 15 – Roadmap
+Preproducción ? Vertical slice ? Producción ? Release (~12 meses).
+Slide 16 – Propuesta inversión
+65k€ invertidos, buscan 150k€. Precio estimado 16,99€–19,99€. Motor Unity.
+Slide 17 – Necesidades
+Financiación, marketing, publishing y distribución.
+Slide 18 – Solicitud
+157.500€ + extras (marketing, trailers, OST).
+Slide 19 – Post-lanzamiento
+DLCs, updates, nuevos personajes, mecánicas y localizaciones.
+Slide 20 – Premios estudio
+Reconocimientos en eventos como FreakCon, IndieDevDay, PlayStation Talents.
+Slide 21 – Premios individuales
+Premios del equipo y reconocimientos adicionales.
+Slide 22 – Equipo
+Slide de equipo (sin detalle en texto).
+* JC Montero 
+o Rol: Director 
+o Perfil: Game Designer / 3D Artist 
+o Experiencia: 20 años 
+* JL Antequera 
+o Rol: Art Director 
+o Perfil: 2D Artist 
+o Experiencia: 7 años 
+* Cristina Barreiro 
+o Rol: Programmer 
+o Experiencia: 5 años 
+* Alejandro Villalba 
+o Rol: Programmer 
+o Experiencia: 1 año 
+* Diego Gomez 
+o Rol: Producer 
+o Experiencia: 1 año 
