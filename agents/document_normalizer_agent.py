@@ -108,10 +108,15 @@ def _llm_normalize_document(
     source_file: str,
     quality_report: dict[str, Any],
     page_hints: list[dict[str, Any]],
+    strict_llm: bool = False,
 ) -> tuple[dict[str, Any], dict[str, Any]]:
     try:
         return normalize_text_to_structured_input(raw_text=raw_text, source_file=source_file)
     except Exception as exc:
+        if strict_llm:
+            raise RuntimeError(
+                "Strict LLM normalization is enabled and real LLM normalization failed."
+            ) from exc
         snippets = _collect_text_snippets(raw_text, page_hints)
         seed_text = "\n".join(snippets)
         parsed = parse_studio_document(seed_text, source_file=source_file)
@@ -144,6 +149,7 @@ def normalize_document_content(
     hints = page_hints or []
     quality = quality_report.get("quality", "poor")
     use_llm = force_llm if force_llm is not None else os.getenv("MIG_USE_LLM_NORMALIZATION", "1") == "1"
+    strict_llm = os.getenv("MIG_STRICT_LLM_NORMALIZATION", "0") == "1"
 
     if use_llm:
         normalized, llm_artifact = _llm_normalize_document(
@@ -151,10 +157,23 @@ def normalize_document_content(
             source_file=source_file,
             quality_report=quality_report,
             page_hints=hints,
+            strict_llm=strict_llm,
         )
+        if strict_llm:
+            llm_used = bool(llm_artifact.get("llm_used"))
+            parse_fallback_used = bool(llm_artifact.get("parse_fallback_used"))
+            if (not llm_used) or parse_fallback_used:
+                raise RuntimeError(
+                    "Strict LLM normalization is enabled and non-LLM fallback was detected."
+                )
         if source_map_overrides:
             normalized.setdefault("source_map", {}).update(source_map_overrides)
         return normalized, "llm-based", quality_report.get("reasons", []), llm_artifact
+
+    if strict_llm:
+        raise RuntimeError(
+            "Strict LLM normalization is enabled but MIG_USE_LLM_NORMALIZATION is disabled."
+        )
 
     if quality == "good":
         parsed = parse_studio_document(raw_text, source_file=source_file)

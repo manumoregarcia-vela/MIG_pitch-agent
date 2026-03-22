@@ -1,55 +1,99 @@
 {
-  "mode": "hybrid-fallback",
+  "mode": "llm-based",
   "provider": "openai",
-  "llm_used": false,
-  "error": "OPENAI_API_KEY is missing; cannot run real LLM normalization.",
+  "model": "gpt-4.1-mini",
+  "llm_used": true,
+  "parse_fallback_used": false,
+  "tokens": {
+    "input_tokens": 1370,
+    "output_tokens": 623,
+    "total_tokens": 1993
+  },
+  "source_file": "AlcheMice_m.pdf",
+  "input_characters": 2254,
+  "extraction_confidence": null,
   "normalized_output": {
     "studio_profile": {
-      "studio_name": ""
+      "studio_name": "AlcheMice"
     },
     "game_profile": {
-      "game_name": "",
-      "genre": "",
+      "game_name": "AlcheMice",
+      "genre": "Roguelike deckbuilder",
       "platforms": [],
-      "development_stage": "",
-      "core_fantasy": ""
+      "development_stage": "preproduction / vertical slice / production / release (~12 months)",
+      "core_fantasy": "Deckbuilding combined with XCOM-style combat, set in 16th century Granada, protagonist Tycoh seeks alchemical notebook to save family"
     },
-    "traction": {},
+    "traction": {
+      "wishlist": null,
+      "retention_d30": null,
+      "revenue": null,
+      "community_size": null
+    },
     "business": {
-      "business_model": "",
-      "target_audience": "",
-      "current_ask": "",
-      "funding_status": ""
+      "business_model": "Premium, single payment, post-launch support, potential sequels",
+      "target_audience": "Age 25-40, indie players, fans of strategy, deckbuilding and narrative",
+      "current_ask": "157,500 + extras (marketing, trailers, OST)",
+      "funding_status": "65k invested, seeking 150k"
     },
-    "team": [],
+    "team": [
+      {
+        "name": "JC Montero",
+        "role": "Director"
+      },
+      {
+        "name": "JL Antequera",
+        "role": "Art Director"
+      },
+      {
+        "name": "Cristina Barreiro",
+        "role": "Programmer"
+      },
+      {
+        "name": "Alejandro Villalba",
+        "role": "Programmer"
+      },
+      {
+        "name": "Diego Gomez",
+        "role": "Producer"
+      }
+    ],
     "assets": {
-      "gameplay": true,
-      "demo": true
+      "links": [],
+      "demo": true,
+      "trailer": false
     },
     "known_gaps": [
-      "Missing: studio_profile.studio_name",
-      "Missing: game_profile.game_name",
-      "Missing: game_profile.genre",
-      "Missing: game_profile.platforms",
-      "Missing: game_profile.development_stage",
-      "Missing: game_profile.core_fantasy",
-      "Missing: business.business_model",
-      "Missing: business.target_audience",
-      "Missing: business.current_ask",
-      "Missing: business.funding_status",
-      "Missing: traction.steam_wishlists",
-      "Missing: traction.demo_downloads",
-      "Missing: traction.trailer_views",
-      "Missing: traction.community_size"
+      "Missing game_profile.platforms",
+      "Missing traction.wishlist",
+      "Missing traction.retention_d30",
+      "Missing traction.revenue",
+      "Missing traction.community_size",
+      "Missing business.funding_status details",
+      "Missing assets.links",
+      "Missing assets.trailer"
     ],
     "source_map": {
-      "document": "AlcheMice_m.extracted.txt",
-      "text_source": "AlcheMice_m.extracted.txt",
+      "document": "AlcheMice_m.pdf",
       "ingestion_mode": "sidecar-text",
-      "sidecar_text_used": true,
-      "normalization_mode": "hybrid-fallback",
-      "llm_used": false,
-      "llm_error": "OPENAI_API_KEY is missing; cannot run real LLM normalization."
+      "extraction_notes": [
+        "game_name and studio_name from title and repeated mentions",
+        "genre inferred from 'Roguelike + deckbuilder' and gameplay descriptions",
+        "development_stage from roadmap slide indicating stages and ~12 months release",
+        "core_fantasy summarized from concept slide and gameplay loop",
+        "business_model and target_audience from respective slides",
+        "current_ask and funding_status from investment and funding slides",
+        "team roles and names from team slide",
+        "demo presence inferred from 12h played in demo and gameplay footage slide",
+        "platforms not explicitly mentioned",
+        "no explicit wishlist, retention, revenue or community size data",
+        "no trailer explicitly mentioned, only request for trailers in funding ask"
+      ],
+      "normalization_mode": "llm-based",
+      "llm_used": true,
+      "llm_provider": "openai",
+      "llm_model": "gpt-4.1-mini",
+      "text_source": "AlcheMice_m.extracted.txt",
+      "sidecar_text_used": true
     }
   }
 }

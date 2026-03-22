@@ -7,7 +7,7 @@ mixed
 Equilibrar claridad de producto, señales de validación, credibilidad del equipo y una propuesta de partnership/inversión accionable.
 
 ## Priority messages
-- El juego ofrece una propuesta central clara: .
+- El juego ofrece una propuesta central clara: Deckbuilding combined with XCOM-style combat, set in 16th century Granada, protagonist Tycoh seeks alchemical notebook to save family.
 - La narrativa debe reforzar validación cualitativa mientras madura la tracción.
 - La credibilidad del equipo debe explicarse mejor para compensar riesgo de ejecución.
 - El pitch debe equilibrar atractivo editorial con credibilidad de negocio.
@@ -16,7 +16,7 @@ Equilibrar claridad de producto, señales de validación, credibilidad del equip
 - La tracción todavía no demuestra de forma contundente el potencial comercial.
 - La lógica de negocio y monetización necesita mayor claridad.
 - La narrativa del equipo puede no ser suficiente para reducir el riesgo de ejecución.
-- Missing: studio_profile.studio_name
+- Missing game_profile.platforms
 
 ## Recommended slide order
 1. Hook + game fantasy
