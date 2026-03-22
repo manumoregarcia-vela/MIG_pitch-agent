@@ -19,7 +19,7 @@
 - ✅ includes_team
 
 ## Mensajes prioritarios detectados en estrategia
-- El juego ofrece una propuesta central clara: .
+- El juego ofrece una propuesta central clara: Deckbuilding combined with XCOM-style combat, set in 16th century Granada, protagonist Tycoh seeks alchemical notebook to save family.
 - La narrativa debe reforzar validación cualitativa mientras madura la tracción.
 - La credibilidad del equipo debe explicarse mejor para compensar riesgo de ejecución.
 - El pitch debe equilibrar atractivo editorial con credibilidad de negocio.
@@ -28,23 +28,17 @@
 - ⚠️ La tracción todavía no demuestra de forma contundente el potencial comercial.
 - ⚠️ La lógica de negocio y monetización necesita mayor claridad.
 - ⚠️ La narrativa del equipo puede no ser suficiente para reducir el riesgo de ejecución.
-- ⚠️ Missing: studio_profile.studio_name
+- ⚠️ Missing game_profile.platforms
 
 ## Huecos de información crítica
-- ⚠️ Missing: studio_profile.studio_name
-- ⚠️ Missing: game_profile.game_name
-- ⚠️ Missing: game_profile.genre
-- ⚠️ Missing: game_profile.platforms
-- ⚠️ Missing: game_profile.development_stage
-- ⚠️ Missing: game_profile.core_fantasy
-- ⚠️ Missing: business.business_model
-- ⚠️ Missing: business.target_audience
-- ⚠️ Missing: business.current_ask
-- ⚠️ Missing: business.funding_status
-- ⚠️ Missing: traction.steam_wishlists
-- ⚠️ Missing: traction.demo_downloads
-- ⚠️ Missing: traction.trailer_views
-- ⚠️ Missing: traction.community_size
+- ⚠️ Missing game_profile.platforms
+- ⚠️ Missing traction.wishlist
+- ⚠️ Missing traction.retention_d30
+- ⚠️ Missing traction.revenue
+- ⚠️ Missing traction.community_size
+- ⚠️ Missing business.funding_status details
+- ⚠️ Missing assets.links
+- ⚠️ Missing assets.trailer
 
 ## Claims dudosos o a validar
 - ⚠️ Validar benchmarks externos y comparables de mercado antes del Demo Day.
