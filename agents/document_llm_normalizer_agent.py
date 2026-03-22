@@ -228,6 +228,7 @@ def normalize_text_to_structured_input(raw_text: str, source_file: str) -> tuple
         },
         "source_file": source_file,
         "input_characters": min(len(raw_text), MAX_INPUT_CHARS),
+        "prompt": prompt,
         "extraction_confidence": None,
         "normalized_output": normalized,
     }
