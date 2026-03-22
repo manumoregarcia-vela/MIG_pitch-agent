@@ -100,6 +100,17 @@ def _load_studio_input(
         _write_json(outputs_dir / "normalized_input.json", studio_input)
         if llm_artifact is not None:
             _write_json(outputs_dir / "llm_normalization.json", llm_artifact)
+            print(
+                "[document-mode] llm="
+                + json.dumps(
+                    {
+                        "provider": llm_artifact.get("provider"),
+                        "model": llm_artifact.get("model"),
+                        "llm_used": llm_artifact.get("llm_used"),
+                    },
+                    ensure_ascii=False,
+                )
+            )
 
         reason_msg = "; ".join(reasons) if reasons else "No quality issues detected"
         print(f"[document-mode] normalization_mode={normalization_mode}")
